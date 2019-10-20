@@ -1,0 +1,117 @@
+Genome,Genome ID,PATRIC ID,RefSeq Locus Tag,Gene,Product,Length (NT),Length (AA),ALN Length,Identity,Query cover,Subject cover,Hit from,Hit to,Score,E value
+Enterococcus faecium strain SP15,1352.7802,fig|1352.7802.peg.603,EAS65_10315,,"Chitin binding protein",645,214,214,61,99,81,29,202,233,6e-75
+Bacillus cereus strain CCTCC M2014513,1396.2219,fig|1396.2219.peg.2405,B7P27_16590,,"Chitin binding protein",1368,455,455,66,99,37,41,209,226,2e-69
+Bacillus cereus strain CCTCC M2014513,1396.2219,fig|1396.2219.peg.4856,B7P27_26490,,"Chitin binding protein",1377,458,458,62,95,35,41,202,211,1e-63
+Serratia sp. SSNIH5,1920121.3,fig|1920121.3.peg.1684,C3396_19035,,"Chitin binding protein",594,197,197,50,100,86,28,197,176,6e-53
+Serratia sp. SSNIH4,1920112.3,fig|1920112.3.peg.1753,C3401_20260,,"Chitin binding protein",594,197,197,50,100,86,28,197,176,6e-53
+Serratia sp. SSNIH3,1920111.3,fig|1920111.3.peg.1653,C3403_20650,,"Chitin binding protein",594,197,197,50,100,86,28,197,176,6e-53
+Bacillus cereus strain CCTCC M2014513,1396.2219,fig|1396.2219.peg.2438,B7P27_16750,,"Chitin binding protein",666,221,221,52,99,76,35,201,176,1e-52
+Paenibacillus sp. EZ-K15,2044275.3,fig|2044275.3.peg.4236,,,"Chitin binding protein",1347,448,448,50,99,37,38,204,167,1e-46
+Aeromonas hydrophila strain GSH8-2,644.226,fig|644.226.peg.4032,AHGSH82_038590,,"Chitin binding protein",1425,474,474,46,99,35,25,191,162,8e-45
+Shewanella decolorationis S12,1353536.3,fig|1353536.3.peg.3563,SHD_3481,,"Chitin binding protein",1458,485,485,44,99,35,38,206,159,8e-44
+Enterobacter sp. HPCN14,2202832.3,fig|2202832.3.peg.3164,DKX24_13445,,"Chitin binding protein",1449,482,482,47,99,35,22,189,159,1e-43
+Enterobacter cloacae complex sp. ECNIH15,2080665.3,fig|2080665.3.peg.2989,C3390_07920,,"Chitin binding protein",1449,482,482,47,99,35,22,189,159,1e-43
+Enterobacter cloacae complex sp. ECNIH13,2080659.3,fig|2080659.3.peg.3016,C3371_07965,,"Chitin binding protein",1449,482,482,47,99,35,22,189,159,1e-43
+Paenibacillus sp. EZ-K15,2044275.3,fig|2044275.3.peg.4725,,,"Chitin binding protein",1038,345,345,47,99,48,38,203,156,1e-43
+Paenibacillus sp. EZ-K15,2044275.3,fig|2044275.3.peg.670,,,"Chitin binding protein",1341,446,446,48,99,37,39,204,158,2e-43
+Paenibacillus mucilaginosus KNP414,1036673.3,fig|1036673.3.peg.4834,KNP414_05223,,"Chitin binding protein",1116,371,371,48,99,44,67,230,155,6e-43
+Klebsiella michiganensis strain 2654,1134687.62,fig|1134687.62.peg.5266,C6400_12070,,"Chitin binding protein",1464,487,487,46,99,34,22,189,156,1e-42
+Enterobacter cloacae strain GEO_45_Down_A,550.1745,fig|550.1745.peg.3937,DN460_23345,,"Chitin binding protein",1455,484,484,48,99,35,22,189,156,1e-42
+Klebsiella michiganensis strain IS1015-72,1134687.70,fig|1134687.70.peg.4599,DDJ70_03940,,"Chitin binding protein",1464,487,487,46,99,34,22,189,156,1e-42
+Leclercia sp. LSNIH5,1920118.3,fig|1920118.3.peg.2244,,,"Chitin binding protein",1119,372,372,47,99,45,22,189,154,1e-42
+Leclercia sp. LSNIH2,1920115.3,fig|1920115.3.peg.2294,,,"Chitin binding protein",1119,372,372,47,99,45,22,189,154,1e-42
+Leclercia sp. LSNIH1,1920114.3,fig|1920114.3.peg.1439,,,"Chitin binding protein",1119,372,372,47,99,45,22,189,154,1e-42
+Klebsiella michiganensis strain GEO_33_Up_A,1134687.76,fig|1134687.76.peg.3331,DN619_01795,,"Chitin binding protein",1464,487,487,46,99,34,22,189,156,2e-42
+Klebsiella oxytoca strain KONIH9,571.317,fig|571.317.peg.6185,C3400_11270,,"Chitin binding protein",1470,489,489,46,99,34,22,189,155,3e-42
+Klebsiella oxytoca strain KONIH7,571.316,fig|571.316.peg.6848,C3409_14140,,"Chitin binding protein",1470,489,489,46,99,34,22,189,155,3e-42
+Klebsiella oxytoca strain KONIH6,571.315,fig|571.315.peg.6434,C3416_12465,,"Chitin binding protein",1470,489,489,46,99,34,22,189,155,3e-42
+Klebsiella oxytoca strain KONIH8,571.312,fig|571.312.peg.6209,C3417_10460,,"Chitin binding protein",1470,489,489,46,99,34,22,189,155,3e-42
+Klebsiella oxytoca strain KONIH5,571.311,fig|571.311.peg.2893,C2U46_14320,,"Chitin binding protein",1470,489,489,46,99,34,22,189,155,3e-42
+Enterobacter kobei strain 3380STDY6027363,208224.7,fig|208224.7.peg.479,SAMEA3181516_00492,gbpA,"Chitin binding protein",1452,483,483,46,99,35,22,189,154,4e-42
+Leclercia sp. LSNIH7,1920120.3,fig|1920120.3.peg.2975,C3370_06885,,"Chitin binding protein",1449,482,482,48,99,35,22,189,154,6e-42
+Leclercia sp. LSNIH4,1920117.3,fig|1920117.3.peg.5364,C3373_16920,,"Chitin binding protein",1458,485,485,47,99,35,22,189,154,1e-41
+Leclercia sp. LSNIH3,1920116.3,fig|1920116.3.peg.1887,C3F35_09280,,"Chitin binding protein",1458,485,485,47,99,35,22,189,154,1e-41
+Klebsiella oxytoca strain KONIH10,571.314,fig|571.314.peg.5853,C3378_09860,,"Chitin binding protein",1464,487,487,45,99,34,22,189,153,1e-41
+Aeromonas caviae strain GEO_23_Down_B,648.127,fig|648.127.peg.4789,,,"Chitin binding protein",732,243,243,43,99,69,25,191,147,3e-41
+Klebsiella michiganensis strain GEO_49_Down_A,1134687.77,fig|1134687.77.peg.5685,DN614_07925,,"Chitin binding protein",1470,489,489,44,99,34,24,191,150,3e-40
+Aeromonas caviae strain GSH8M-1,648.124,fig|648.124.peg.651,ACGSH8M1_006350,,"Chitin binding protein",1422,473,473,43,99,35,25,191,148,1e-39
+Aeromonas caviae strain GEO_48_Eff_A,648.129,fig|648.129.peg.2292,DN618_11085,,"Chitin binding protein",1422,473,473,42,99,35,25,191,148,1e-39
+Aeromonas caviae strain GEO_47_Up_A,648.128,fig|648.128.peg.3852,DN600_16020,,"Chitin binding protein",1422,473,473,42,99,35,25,191,148,1e-39
+Aeromonas caviae strain GEO_37_Down_A,648.125,fig|648.125.peg.3896,DN613_11085,,"Chitin binding protein",1422,473,473,42,99,35,25,191,148,1e-39
+Aeromonas sp. ARM81,1747384.3,fig|1747384.3.peg.3170,ASJ36_15315,,"Chitin binding protein",1422,473,473,43,99,35,25,191,148,1e-39
+Aeromonas caviae strain R25-2,648.114,fig|648.114.peg.4714,C0708_21165,,"Chitin binding protein",1422,473,473,42,99,35,25,191,148,1e-39
+Aeromonas caviae strain T25-39,648.113,fig|648.113.peg.1063,C1C91_04995,,"Chitin binding protein",1422,473,473,42,99,35,25,191,148,1e-39
+Aeromonas sp. ASNIH8,1920113.3,fig|1920113.3.peg.215,C3418_04595,,"Chitin binding protein",1422,473,473,42,99,35,25,191,148,1e-39
+Aeromonas caviae strain R25-6,648.112,fig|648.112.peg.1941,C1C92_09630,,"Chitin binding protein",1422,473,473,42,99,35,25,191,148,1e-39
+Aeromonas caviae strain GEO_39_Eff_A,648.126,fig|648.126.peg.228,DN612_19020,,"Chitin binding protein",1422,473,473,43,99,35,25,191,148,1e-39
+Aeromonas sp. 62-46,1895698.3,fig|1895698.3.peg.2479,BGO64_15535,,"Chitin binding protein",1422,473,473,43,99,35,25,191,148,1e-39
+Aeromonas sp. ASNIH7,1920107.3,fig|1920107.3.peg.2814,C2U47_13590,,"Chitin binding protein",1422,473,473,42,99,35,25,191,147,1e-39
+Vibrio cholerae O1 biovar El Tor strain 39,686.19,fig|686.19.peg.510,AM625_10815,,"Chitin binding protein",1458,485,485,52,82,30,57,201,146,9e-39
+Enterococcus faecium strain SP15,1352.7802,fig|1352.7802.peg.2525,EAS65_05510,,"Chitin binding protein",579,192,192,44,99,86,27,191,134,1e-36
+Serratia sp. SSNIH5,1920121.3,fig|1920121.3.peg.1922,C3396_20210,,"Chitin binding protein",1428,475,475,43,99,35,22,189,129,1e-32
+Serratia sp. SSNIH4,1920112.3,fig|1920112.3.peg.510,C3401_02490,,"Chitin binding protein",1428,475,475,43,99,35,22,189,129,1e-32
+Serratia sp. SSNIH3,1920111.3,fig|1920111.3.peg.2438,C3403_22475,,"Chitin binding protein",1428,475,475,43,99,35,22,189,129,1e-32
+Enterobacter cloacae complex sp. ECNIH17,2080668.3,fig|2080668.3.peg.3176,C3376_21845,,"Chitin binding protein",1263,420,420,50,71,30,2,126,127,3e-32
+Enterobacter cloacae complex sp. ECNIH12,2080660.3,fig|2080660.3.peg.3735,C3386_21915,,"Chitin binding protein",1263,420,420,50,71,30,2,126,127,3e-32
+Pseudomonas putida strain ATCC 31483,303.530,fig|303.530.peg.3208,D0O09_15050,gbpA,"Chitin binding protein",1464,487,487,38,99,36,33,209,116,2e-28
+Stenotrophomonas maltophilia strain SJTH1,40324.539,fig|40324.539.peg.4488,C6Y55_21945,,"chitin-binding domain 3 protein",1173,390,390,32,99,47,28,209,78,5e-15
+Stenotrophomonas maltophilia strain SJTL3,40324.940,fig|40324.940.peg.4347,DM611_21395,,"chitin-binding domain 3 protein",1173,390,390,32,99,47,28,209,78,6e-15
+Stenotrophomonas maltophilia strain SJTH1,40324.539,fig|40324.539.peg.4489,C6Y55_21950,,"chitin-binding domain 3 protein",1170,389,389,32,99,47,26,206,72,6e-13
+Pseudomonas moraviensis R28-S,1395516.4,fig|1395516.4.peg.3290,PMO01_16200,,"Chitin binding protein",636,211,211,32,52,48,109,210,67,8e-12
+Xanthomonadales bacterium 69-70,1895869.3,fig|1895869.3.peg.2370,BGP24_11635,,"chitin-binding domain 3 protein",1443,480,480,34,70,26,87,209,65,1e-10
+Xanthomonadaceae bacterium SCN 69-25,1660172.3,fig|1660172.3.peg.601,ABT27_02780,,"chitin-binding domain 3 protein",1443,480,480,34,70,26,87,209,65,1e-10
+Xanthomonadaceae bacterium SCN 69-320,1660169.3,fig|1660169.3.peg.4584,ABS97_21400,,"chitin-binding domain 3 protein",1443,480,480,34,70,26,87,209,65,1e-10
+Stenotrophomonas maltophilia strain SJTL3,40324.940,fig|40324.940.peg.4348,DM611_21400,,"chitin-binding domain 3 protein",1176,391,391,34,61,28,98,207,64,3e-10
+Pseudomonas aeruginosa strain B10W,287.2971,fig|287.2971.peg.4593,BMR72_22140,,"hypothetical protein",1170,389,389,33,71,33,84,210,64,3e-10
+Pseudomonas otitidis strain LNU-E-001,319939.3,fig|319939.3.peg.2804,,,"hypothetical protein",1170,389,389,33,71,33,84,210,64,3e-10
+Pseudomonas aeruginosa strain FA-HZ1,287.2914,fig|287.2914.peg.845,BHE76_04010,,"hypothetical protein",1170,389,389,33,71,33,84,210,64,3e-10
+Vibrio cholerae O1 biovar El Tor strain 39,686.19,fig|686.19.peg.3210,AM625_07845,,"Spindolin-related protein",1170,389,389,31,70,32,92,216,63,7e-10
+Actinobacteria bacterium strain UBA10799,1883427.106,fig|1883427.106.peg.1591,DCQ04_02330,,"hypothetical protein",1419,472,472,27,99,38,36,212,55,6e-7
+Mycobacterium sp. ST-F2,1490484.3,fig|1490484.3.peg.3605,EB75_17925,,"Uncharacterized protein Rv1312",435,144,144,31,30,41,61,119,34,2.1079
+Leclercia sp. LSNIH5,1920118.3,fig|1920118.3.peg.4331,C3388_13030,,"Vitamin B12 ABC transporter, ATP-binding protein BtuD",756,251,251,29,41,28,45,115,35,2.8108
+Leclercia sp. LSNIH2,1920115.3,fig|1920115.3.peg.3990,C3389_10020,,"Vitamin B12 ABC transporter, ATP-binding protein BtuD",756,251,251,29,41,28,45,115,35,2.8108
+Leclercia sp. LSNIH1,1920114.3,fig|1920114.3.peg.2940,C2U54_14760,,"Vitamin B12 ABC transporter, ATP-binding protein BtuD",756,251,251,29,41,28,45,115,35,2.8108
+Escherichia sp. ESNIH1,1985876.3,fig|1985876.3.peg.765,C3369_18495,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,3.9686
+Magnetospirillum sp. 64-120,1895778.3,fig|1895778.3.peg.750,BGO92_09110,,"hypothetical protein",630,209,209,26,37,33,129,197,34,5.0387
+Stenotrophomonas sp. 69-14,1895856.3,fig|1895856.3.peg.3255,BGP18_08710,,"TonB-dependent receptor",2775,924,924,35,35,7,375,435,34,5.3393
+Xanthomonadaceae bacterium SCN 69-123,1660170.3,fig|1660170.3.peg.1330,ABS96_06515,,"TonB-dependent receptor",2775,924,924,35,35,7,375,435,34,5.3393
+Leclercia sp. LSNIH7,1920120.3,fig|1920120.3.peg.4073,C3370_12150,,"Vitamin B12 ABC transporter, ATP-binding protein BtuD",756,251,251,27,41,28,45,115,34,5.4959
+Salmonella enterica subsp. enterica serovar Weltevreden strain HIY0014,57743.229,fig|57743.229.peg.4766,FG570_10400,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.2071
+Salmonella enterica subsp. enterica serovar Derby strain HIY0018,28144.254,fig|28144.254.peg.3711,FG574_13760,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.2071
+Salmonella enterica subsp. enterica serovar Derby strain HIY0020,28144.253,fig|28144.253.peg.679,FG576_17235,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.2071
+Salmonella enterica subsp. enterica serovar Derby strain HIY0019,28144.252,fig|28144.252.peg.792,FG575_14720,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.2071
+Salmonella enterica subsp. enterica serovar Derby strain HIY0036,28144.249,fig|28144.249.peg.3007,FG583_13080,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.2071
+Salmonella enterica subsp. enterica serovar Java strain HIY0013,224729.25,fig|224729.25.peg.561,EIL65_18360,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.3213
+Salmonella enterica subsp. enterica serovar Give strain HIY0008,46626.45,fig|46626.45.peg.3723,FG567_13925,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.3792
+Salmonella enterica subsp. enterica serovar Derby strain HIY0006,28144.258,fig|28144.258.peg.752,FG565_07825,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.3792
+Salmonella enterica subsp. enterica serovar Derby strain HIY0016,28144.257,fig|28144.257.peg.3681,FG572_04025,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.3792
+Salmonella enterica subsp. enterica serovar Derby strain HIY0012,28144.256,fig|28144.256.peg.2381,FG569_03580,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.3792
+Salmonella enterica subsp. enterica serovar Derby strain HIY0017,28144.255,fig|28144.255.peg.4188,FG573_11935,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.3792
+Salmonella enterica subsp. enterica serovar Derby strain HIY0031,28144.251,fig|28144.251.peg.1845,FG580_15850,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.3792
+Salmonella enterica subsp. enterica serovar Derby strain HIY0032,28144.250,fig|28144.250.peg.2706,FG581_07265,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.3792
+Salmonella enterica subsp. enterica serovar Derby strain HIY0039,28144.248,fig|28144.248.peg.2958,FG585_10115,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.3792
+Salmonella enterica subsp. enterica serovar Chester strain HIY0035,149386.14,fig|149386.14.peg.3919,FG582_16470,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.3792
+Salmonella enterica subsp. enterica serovar Java strain HIY0002,224729.33,fig|224729.33.peg.229,EIL61_15900,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0001,224729.32,fig|224729.32.peg.1528,EIL64_01615,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0003,224729.31,fig|224729.31.peg.3321,EIL63_08775,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0005,224729.30,fig|224729.30.peg.2427,EIL60_03695,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0011,224729.29,fig|224729.29.peg.2162,EIL51_21710,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0004,224729.28,fig|224729.28.peg.4178,EIL62_09115,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0009,224729.27,fig|224729.27.peg.1762,EIL53_19605,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0022,224729.24,fig|224729.24.peg.3348,EIL67_08775,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0027,224729.23,fig|224729.23.peg.3206,EIL71_06540,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0033,224729.22,fig|224729.22.peg.3442,EIL68_08780,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0030,224729.21,fig|224729.21.peg.3912,EIL52_13475,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0386,224729.20,fig|224729.20.peg.3279,EIL59_08770,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0029,224729.19,fig|224729.19.peg.3279,EIL70_08780,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0034,224729.18,fig|224729.18.peg.3453,EIL69_08770,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0081,224729.17,fig|224729.17.peg.3287,EIL58_08775,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0395,224729.15,fig|224729.15.peg.3695,EIL54_10940,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0401,224729.14,fig|224729.14.peg.404,EIL55_17510,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0038,224729.13,fig|224729.13.peg.402,EIL56_17525,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Mbandaka strain HIY0024,192954.84,fig|192954.84.peg.302,FG578_16285,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Mbandaka strain HIY0026,192954.83,fig|192954.83.peg.4705,FG579_18190,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar London strain HIY0010,149390.12,fig|149390.12.peg.1727,FG568_14250,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar London strain HIY0015,149390.11,fig|149390.11.peg.1266,FG571_01155,pheP,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.4376
+Salmonella enterica subsp. enterica serovar Java strain HIY0385,224729.16,fig|224729.16.peg.3271,EIL57_08775,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.5560
+Salmonella enterica subsp. enterica serovar Java strain HIY0021,224729.26,fig|224729.26.peg.2990,EIL66_06930,,"Phenylalanine-specific permease",1395,464,464,31,34,13,56,114,34,6.6766

@@ -1,0 +1,75 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.0 (March 2010); http://hmmer.org/
+# Copyright (C) 2010 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  temp/input_profile.hmm
+# target sequence database:        /dev/stdin
+# output directed to file:         temp/output_EBPRSludge.txt
+# max ASCII text line length:      unlimited
+# sequence inclusion threshold:    E-value <= 0.05
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       input_aligned  [M=251]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                         -----------
+  ------ inclusion threshold ------
+       0.38   16.3   0.1       0.52   15.8   0.1    1.2  1  JGI_SLUDGE_US_READ_1404910571_4  /ti=1404910571 /template_id=APZP12278 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=reverse /mate=JGI_SLUDGE_US_READ_1404901350 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=929
+        2.6   13.5   1.1        4.2   12.8   0.8    1.2  1  JGI_SLUDGE_AUS_READ_1434050660_1 /ti=1434050660 /template_id=AXNY7011 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434050659 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1138
+        6.8   12.1   0.2         10   11.5   0.1    1.2  1  JGI_SLUDGE_AUS_READ_1434097198_1 /ti=1434097198 /template_id=AXNY10507 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434097197 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=996
+
+
+Domain annotation for each sequence (and alignments):
+>> JGI_SLUDGE_US_READ_1404910571_4  /ti=1404910571 /template_id=APZP12278 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=reverse /mate=JGI_SLUDGE_US_READ_1404901350 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=929
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.8   0.1   1.2e-06      0.52     121     175 ..       3      58 ..       1      64 [. 0.87
+
+  Alignments for each domain:
+  == domain 1    score: 15.8 bits;  conditional E-value: 1.2e-06
+                    input_aligned 121 vlPetlipaalvlDvvlllsr.sflltallgglafgllfypanwpllapfhvpvev 175
+                                       +P+tl+  a+++ ++ ll+r  ++l  + g++ +gll   + +  l   h p+  
+  JGI_SLUDGE_US_READ_1404910571_4   3 AWPTTLLQIAMAMAAITLLTRkRWMLFGVYGATGWGLLAGAMGYLHLXHHHRPLGQ 58 
+                                      69***********99988886269**************999999999999999765 PP
+
+>> JGI_SLUDGE_AUS_READ_1434050660_1  /ti=1434050660 /template_id=AXNY7011 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434050659 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1138
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.8   9.3e-06       4.2      77     127 ..     242     292 ..     237     309 .. 0.79
+
+  Alignments for each domain:
+  == domain 1    score: 12.8 bits;  conditional E-value: 9.3e-06
+                     input_aligned  77 vqavlWtklrlplGa.tlcvvglllgewlnRylnfegwasfPinfvlPetli 127
+                                       +  + W+ +r+ lG   +c++++    w+n y  ++   + P  +++P++ +
+  JGI_SLUDGE_AUS_READ_1434050660_1 242 ISLFNWVSWRIDLGHgFVCIMCIPTRMWMNCYRXWHLGVYCPT-LMFPSNTV 292
+                                       66789*********83579*************99998776664.55555443 PP
+
+>> JGI_SLUDGE_AUS_READ_1434097198_1  /ti=1434097198 /template_id=AXNY10507 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434097197 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=996
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   0.1   2.3e-05        10      36      73 ..     196     233 ..     188     251 .. 0.85
+
+  Alignments for each domain:
+  == domain 1    score: 11.5 bits;  conditional E-value: 2.3e-05
+                     input_aligned  36 vggyhlhfmLlaGDWdfWvDwkDRrwwpvvtpivgitl 73 
+                                       v g+ ++  L+aG W  W+ w+  rw  +++p +++  
+  JGI_SLUDGE_AUS_READ_1434097198_1 196 VRGWAISSRLVAGHWACWACWRCCRWLATLSPGCSVPS 233
+                                       66889999**********************99877654 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (251 nodes)
+Target sequences:                    1347096  (441112699 residues)
+Passed MSV filter:                     23184  (0.0172104); expected 26941.9 (0.02)
+Passed bias filter:                    12581  (0.00933935); expected 26941.9 (0.02)
+Passed Vit filter:                       789  (0.000585704); expected 1347.1 (0.001)
+Passed Fwd filter:                         3  (2.22701e-06); expected 13.5 (1e-05)
+Initial search space (Z):            1347096  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 18.76u 1.22s 00:00:19.98 Elapsed: 00:00:32.02
+# Mc/sec: 3457.82
+//

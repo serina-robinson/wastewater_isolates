@@ -1,0 +1,707 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.0 (March 2010); http://hmmer.org/
+# Copyright (C) 2010 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  temp/input_profile.hmm
+# target sequence database:        /dev/stdin
+# output directed to file:         temp/output_EBPRSludge.txt
+# max ASCII text line length:      unlimited
+# sequence inclusion threshold:    E-value <= 0.05
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       input_aligned  [M=677]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                         -----------
+   6.7e-131  444.2   7.9   8.8e-131  443.8   5.5    1.0  1  JGI_SLUDGE_AUS_READ_1434249671_6 /ti=1434249671 /template_id=AXNZ10339 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434249670 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=985
+   2.4e-110  376.3   4.0   2.8e-110  376.1   2.8    1.0  1  JGI_SLUDGE_AUS_READ_1434260458_4 /ti=1434260458 /template_id=AXNZ18134 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434260459 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1036
+   4.2e-110  375.5   2.9   4.9e-110  375.3   2.0    1.0  1  JGI_SLUDGE_AUS_READ_1434109371_1 /ti=1434109371 /template_id=AXNY17580 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434109372 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1064
+    3.7e-83  286.4   0.4    4.5e-83  286.2   0.3    1.0  1  JGI_SLUDGE_AUS_READ_1434013000_1 /ti=1434013000 /template_id=AWAC609 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434012999 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=985
+    7.4e-78  268.9   8.4    9.7e-78  268.5   5.8    1.0  1  JGI_SLUDGE_US_READ_1404884151_1  /ti=1404884151 /template_id=APZP1585 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=reverse /mate=JGI_SLUDGE_US_READ_1404884061 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1004
+    5.7e-74  256.1   6.6    7.3e-74  255.7   4.6    1.0  1  JGI_SLUDGE_AUS_READ_1434239807_4 /ti=1434239807 /template_id=AXNZ4083 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434239806 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=999
+    1.3e-68  238.4  12.4    1.5e-68  238.2   8.6    1.0  1  JGI_SLUDGE_AUS_READ_1434218349_2 /ti=1434218349 /template_id=AXNY19587 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434218350 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1215
+    1.3e-64  225.2   9.5    1.6e-64  224.9   6.6    1.0  1  JGI_SLUDGE_AUS_READ_1434232053_6 /ti=1434232053 /template_id=AXNY28741 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434232054 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1119
+    3.2e-64  223.9   5.4    3.8e-64  223.6   3.8    1.0  1  JGI_SLUDGE_US_READ_1404892471_2  /ti=1404892471 /template_id=APZP7841 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=reverse /mate=JGI_SLUDGE_US_READ_1404892379 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1032
+    8.2e-62  215.9   0.8      1e-61  215.6   0.5    1.0  1  JGI_SLUDGE_US_READ_1404744064_6  /ti=1404744064 /template_id=APZO31401 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404744418 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1120
+    7.5e-60  209.4   2.1    8.9e-60  209.2   1.4    1.1  1  JGI_SLUDGE_AUS_READ_1434230008_2 /ti=1434230008 /template_id=AXNY26799 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434230007 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1126
+    3.1e-59  207.4   6.0    4.2e-59  207.0   4.1    1.1  1  JGI_SLUDGE_AUS_READ_1434226797_6 /ti=1434226797 /template_id=AXNY24941 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1214
+    7.3e-59  206.2   7.1      9e-59  205.9   4.9    1.0  1  JGI_SLUDGE_AUS_READ_1434111830_1 /ti=1434111830 /template_id=AXNY19013 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434111829 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1151
+    3.9e-49  174.0   0.8    5.2e-49  173.6   0.6    1.0  1  JGI_SLUDGE_AUS_READ_1434097865_4 /ti=1434097865 /template_id=AXNY10895 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434097864 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1110
+    3.8e-47  167.4   9.0    5.1e-47  167.0   6.3    1.0  1  JGI_SLUDGE_US_READ_1404624592_5  /ti=1404624592 /template_id=APZO23682 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404624685 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1078
+    6.1e-44  156.9   1.2    7.4e-44  156.6   0.8    1.1  1  JGI_SLUDGE_AUS_READ_1434248184_5 /ti=1434248184 /template_id=AXNZ9055 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434248185 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=920
+    2.4e-43  154.9   7.5    3.2e-43  154.5   5.2    1.0  1  JGI_SLUDGE_AUS_READ_1434048356_5 /ti=1434048356 /template_id=AXNY5771 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434048357 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1155
+    2.1e-41  148.5   0.5    2.7e-41  148.1   0.3    1.1  1  JGI_SLUDGE_US_READ_1404979663_4  /ti=1404979663 /template_id=APZP23497 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=reverse /mate=JGI_SLUDGE_US_READ_1404979576 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=969
+    3.4e-41  147.8   0.5    4.5e-41  147.4   0.4    1.1  1  JGI_SLUDGE_US_READ_1404974572_1  /ti=1404974572 /template_id=APZP20392 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404974658 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1045
+    4.4e-35  127.6   0.0    5.5e-35  127.3   0.0    1.1  1  JGI_SLUDGE_US_READ_1404749847_3  /ti=1404749847 /template_id=APZO36111 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=reverse /mate=JGI_SLUDGE_US_READ_1404749501 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1043
+      4e-33  121.1   0.0      5e-33  120.8   0.0    1.0  1  JGI_SLUDGE_US_READ_1404736571_5  /ti=1404736571 /template_id=APZO30539 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=reverse /mate=JGI_SLUDGE_US_READ_1404736220 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=916
+    1.2e-28  106.3   1.2    1.6e-28  105.9   0.8    1.1  1  JGI_SLUDGE_AUS_READ_1434247841_1 /ti=1434247841 /template_id=AXNZ8841 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434247842 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=990
+    6.4e-23   87.4   0.7    8.6e-23   86.9   0.5    1.1  1  JGI_SLUDGE_AUS_READ_1434243139_4 /ti=1434243139 /template_id=AXNZ6000 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434243140 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=988
+    1.4e-22   86.3   0.1    1.8e-22   85.9   0.1    1.0  1  JGI_SLUDGE_US_READ_1404886900_3  /ti=1404886900 /template_id=APZP3536 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404886986 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=950
+    2.8e-20   78.7   1.3    3.7e-20   78.2   0.9    1.1  1  JGI_SLUDGE_AUS_READ_1434043400_2 /ti=1434043400 /template_id=AXNY2635 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1192
+    7.5e-19   73.9   0.0    1.2e-18   73.3   0.0    1.2  1  JGI_SLUDGE_AUS_READ_1434048357_3 /ti=1434048357 /template_id=AXNY5771 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434048356 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1223
+    2.4e-18   72.3   0.1    3.2e-18   71.8   0.1    1.1  1  JGI_SLUDGE_AUS_READ_1434232054_1 /ti=1434232054 /template_id=AXNY28741 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434232053 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=956
+    2.2e-17   69.1   0.4    2.9e-17   68.7   0.3    1.0  1  JGI_SLUDGE_AUS_READ_1434043399_2 /ti=1434043399 /template_id=AXNY2635 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1225
+    3.3e-17   68.5   1.3    3.9e-17   68.3   0.9    1.0  1  JGI_SLUDGE_US_READ_1404567971_3  /ti=1404567971 /template_id=APZO16309 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404568312 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=718
+    2.4e-16   65.6   1.4    3.3e-16   65.2   0.9    1.1  1  JGI_SLUDGE_US_READ_1404539692_6  /ti=1404539692 /template_id=APZO9128 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404539779 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=887
+    1.8e-13   56.1   0.0    2.6e-13   55.6   0.0    1.1  1  JGI_SLUDGE_AUS_READ_1434230007_5 /ti=1434230007 /template_id=AXNY26799 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434230008 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1186
+    5.5e-13   54.6   0.1      7e-13   54.2   0.1    1.1  1  JGI_SLUDGE_AUS_READ_1434269304_4 /ti=1434269304 /template_id=AXNZ23623 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434269303 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=893
+    9.1e-13   53.8   0.3    1.2e-12   53.5   0.2    1.0  1  JGI_SLUDGE_US_READ_1404736365_3  /ti=1404736365 /template_id=APZO30696 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404736710 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=548
+    4.7e-12   51.5   1.0    2.8e-09   42.3   0.0    2.1  2  JGI_SLUDGE_US_READ_1404974572_3  /ti=1404974572 /template_id=APZP20392 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404974658 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1045
+      8e-12   50.7   0.3    1.2e-11   50.1   0.2    1.2  1  JGI_SLUDGE_AUS_READ_1434108255_2 /ti=1434108255 /template_id=AXNY16935 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434108256 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1188
+    1.2e-11   50.1   0.1    1.5e-11   49.8   0.0    1.1  1  JGI_SLUDGE_AUS_READ_1434109372_6 /ti=1434109372 /template_id=AXNY17580 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434109371 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=956
+    4.2e-08   38.4   0.1    5.5e-08   38.0   0.0    1.1  1  JGI_SLUDGE_AUS_READ_1434258466_4 /ti=1434258466 /template_id=AXNZ16698 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434258465 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=963
+    2.9e-07   35.6   0.7    3.8e-07   35.3   0.5    1.1  1  JGI_SLUDGE_AUS_READ_1434248374_4 /ti=1434248374 /template_id=AXNZ9173 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=978
+      3e-07   35.6   0.0    4.1e-07   35.1   0.0    1.1  1  JGI_SLUDGE_AUS_READ_1434043400_3 /ti=1434043400 /template_id=AXNY2635 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1192
+    1.9e-06   33.0   0.0    2.6e-06   32.5   0.0    1.1  1  JGI_SLUDGE_AUS_READ_1434043399_3 /ti=1434043399 /template_id=AXNY2635 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1225
+    0.00017   26.4   0.0    0.00023   26.0   0.0    1.0  1  JGI_SLUDGE_AUS_READ_1434013000_3 /ti=1434013000 /template_id=AWAC609 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434012999 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=985
+  ------ inclusion threshold ------
+      0.058   18.1   0.1      0.087   17.5   0.1    1.1  1  JGI_SLUDGE_US_READ_1404624592_6  /ti=1404624592 /template_id=APZO23682 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404624685 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1078
+        0.1   17.3   0.2       0.14   16.9   0.2    1.1  1  JGI_SLUDGE_AUS_READ_1434229929_3 /ti=1434229929 /template_id=AXNY26755 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434229928 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1148
+        0.1   17.3   0.6       0.13   16.9   0.2    1.3  1  JGI_SLUDGE_AUS_READ_1434244786_1 /ti=1434244786 /template_id=AXNZ7088 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434244787 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=936
+        0.1   17.3   0.0       0.15   16.8   0.0    1.1  1  JGI_SLUDGE_US_READ_1404749847_2  /ti=1404749847 /template_id=APZO36111 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=reverse /mate=JGI_SLUDGE_US_READ_1404749501 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1043
+       0.21   16.3   0.5       0.21   16.3   0.3    2.0  2  JGI_SLUDGE_US_READ_1404636717_1  /ti=1404636717 /template_id=APZO25857 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404640594 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=823
+          3   12.5   0.0          6   11.5   0.0    1.4  2  JGI_SLUDGE_AUS_READ_1434098934_2 /ti=1434098934 /template_id=AXNY11515 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434098935 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=928
+        3.8   12.1   0.6        5.1   11.7   0.4    1.1  1  JGI_SLUDGE_AUS_READ_1434238261_3 /ti=1434238261 /template_id=AXNZ3156 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434238260 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=885
+          4   12.0   0.0        7.5   11.1   0.0    1.4  1  JGI_SLUDGE_AUS_READ_1434256691_1 /ti=1434256691 /template_id=AXNZ15578 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434256690 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1015
+        7.1   11.2   0.0         10   10.7   0.0    1.1  1  JGI_SLUDGE_AUS_READ_1434267581_2 /ti=1434267581 /template_id=AXNZ22502 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434267582 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=980
+
+
+Domain annotation for each sequence (and alignments):
+>> JGI_SLUDGE_AUS_READ_1434249671_6  /ti=1434249671 /template_id=AXNZ10339 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434249670 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=985
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  443.8   5.5  3.3e-135  8.8e-131      49     347 ..      12     310 ..       2     312 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 443.8 bits;  conditional E-value: 3.3e-135
+                     input_aligned  49 fkltyreYvkmqaeKderlYavldalarsnllekvdprwlealklflgavallEyaAaraearlarfvkapelrnaatfqslDElRHaqiqiylkseyvkkyrgfdwa.kamhtnewllivarsffddait.gdavefaialtfvfEtgfTNllfvalaadAaanGDvafptvilSiQsDEaRHmqlGletlkillendeknvpilqrdldkafWrshrlfallvglmmdYytp..kRveSykefweewiveqlgaflrdlekyGlkkPkyleqaikeldhyhhalalglyalrptvwwr.tag 347
+                                        ++ty eYvk+q+eKd+++Y+v++al+rs+ +e++d +w++++k+++ga+a +EyaAa+aear++rf kap++rn+ t + +DE+RH+q+q+y+++e+v+k+r++dwa ka+ tnew++i+ar+ffdd+++ +da++++i+ltf+fEtgfTN++f++laadAa++GD++f+++i+SiQ+DE+RH+q+G ++lkil++n++k+  ++q+ +d a W +++lf++l+g +mdYytp  +R++S+kef+eewiv q   f r l++ Gl+ P+y++ ++++l++ hh ++lg y++rptvww+ +ag
+  JGI_SLUDGE_AUS_READ_1434249671_6  12 LQQTYPEYVKVQREKDAGAYSVKAALERSRIFENADXGWKSVMKAHYGAIARGEYAAASAEARMMRFSKAPGMRNMSTLGCMDEIRHGQMQLYFPHEHVSKDRQMDWAfKAYDTNEWAMIAARHFFDDIMMtRDAISVSIMLTFSFETGFTNMQFLGLAADAAEAGDHTFANLISSIQTDESRHAQIGGPALKILIANGKKE--EAQKRVDVALWGAWKLFSVLTGPIMDYYTPleHRKQSFKEFMEEWIVAQ---FERALTDMGLDLPWYWDIFLNDLNDTHHGMHLGSYFWRPTVWWNpAAG 310
+                                       679*****************************************************************************************************************************9999*********************************************************************9..*************************************************...*******************************************97765 PP
+
+>> JGI_SLUDGE_AUS_READ_1434260458_4  /ti=1434260458 /template_id=AXNZ18134 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434260459 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1036
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  376.1   2.8  1.1e-114  2.8e-110       2     254 ..      71     325 ..      70     332 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 376.1 bits;  conditional E-value: 1.1e-114
+                     input_aligned   2 kllsreeyydltrdldWepsYvkeeelfptd..ktegikiedwekwedpfkltyreYvkmqaeKderlYavldalarsnllekvdprwlealklflgavallEyaAaraearlarfvkapelrnaatfqslDElRHaqiqiylkseyvkkyrgfdwa.kamhtnewllivarsffddait.gdavefaialtfvfEtgfTNllfvalaadAaanGDvafptvilSiQsDEaRHmqlGletlkillendeknvpilqr 254
+                                       +  +r+++y+l+r+++W+p+Yv+e+elfp +  +  g++ ++wek+++p+k+ty eYvk+q+eKd+++Y+v++al+rs+ +e++dp+w++++k+++ga+a +EyaAa+aear++rf kap++rn+ t + +DE+RH+q+q+y+++e+v+k+r++dwa ka+ tnew++i+ar+ffdd+++ +da++++i+ltf+fEtgfTN++f++laadAa++GD++f+++i+SiQ+DE+RH+q+  ++lkil++n++k+  ++q+
+  JGI_SLUDGE_AUS_READ_1434260458_4  71 AVXNRMDWYNLARSTNWTPKYVTEDELFPPQlsGEFGLPLSAWEKYDEPYKQTYPEYVKVQREKDAGAYSVKAALERSRIFENADPGWKSVMKAHYGAIARGEYAAASAEARMMRFSKAPGMRNMSTLGCMDEIRHGQMQLYFPHEHVSKDRQMDWAfKAYDTNEWAMIAARHFFDDIMMtRDAISVSIMLTFSFETGFTNMQFLGLAADAAEAGDHTFANLISSIQTDESRHAQIAGPALKILIANGKKE--EAQK 325
+                                       66789***************************999**********************************************************************************************************************************************9999*********************************************************************9..7775 PP
+
+>> JGI_SLUDGE_AUS_READ_1434109371_1  /ti=1434109371 /template_id=AXNY17580 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434109372 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1064
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  375.3   2.0  1.8e-114  4.9e-110       1     248 [.     102     353 ..     102     355 .] 0.99
+
+  Alignments for each domain:
+  == domain 1    score: 375.3 bits;  conditional E-value: 1.8e-114
+                     input_aligned   1 mkllsreeyydltrdldWepsYvkeeelfptd..ktegikiedwekwedpfkltyreYvkmqaeKderlYavldalarsnllekvdprwlealklflgavallEyaAaraearlarfvkapelrnaatfqslDElRHaqiqiylkseyvkkyrgfdwa.kamhtnewllivarsffddait.gdavefaialtfvfEtgfTNllfvalaadAaanGDvafptvilSiQsDEaRHmqlGletlkillendekn 248
+                                       m+ l+r+++y+l+r+++W+p+Yv+e+elfp +  +  g++ ++wek+++p+k+ty eYvk+q+eKd+++Y+v++al+rs+ +e++dp+w++++k+++ga+a +EyaAa+aear++rf kap++rn+ t + +DE+RH+q+q+y+++e+v+k+r++dwa ka+ tnew++i+ar+ffdd+++ +da++++i+ltf+fEtgfTN++f++l+adAa++GD++f+++i+SiQ+DE+RH+q+G ++  il++n++k+
+  JGI_SLUDGE_AUS_READ_1434109371_1 102 MAVLNRMDWYNLARSTNWTPKYVTEDELFPPQlsGEFGLPLSAWEKYDEPYKQTYPEYVKVQREKDAGAYSVKAALERSRIFENADPGWKSVMKAHYGAIARGEYAAASAEARMMRFSKAPGMRNMSTLGCMDEIRHGQMQLYFPHEHVSKDRQMDWAfKAYDTNEWAMIAARHFFDDIMMtRDAISVSIMLTFSFETGFTNMQFLGLTADAAEAGDHTFANLISSIQTDESRHAQIGGPCTXILIANGQKE 353
+                                       56789****************************999**********************************************************************************************************************************************9999******************************************************************9997 PP
+
+>> JGI_SLUDGE_AUS_READ_1434013000_1  /ti=1434013000 /template_id=AWAC609 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434012999 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=985
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  286.2   0.3   1.7e-87   4.5e-83     165     384 ..      16     233 ..       6     268 .. 0.96
+
+  Alignments for each domain:
+  == domain 1    score: 286.2 bits;  conditional E-value: 1.7e-87
+                     input_aligned 165 llivarsffddaitgdavefaialtfvfEtgfTNllfvalaadAaanGDvafptvilSiQsDEaRHmqlGletlkillendeknvpilqrdldkafWrshrlfallvglmmdYytpkRveSykefweewiveqlgaflrdlekyGlkkPkyleqaikeldhyhhalalglyalrptvwwrtagmtpeerewleekypgwedr.ygktwdvirerakrrkgs 384
+                                        l+v++s+fdda +++++e ++ ++f+fE+ +TNllfv+++++Aa+nGD+a++t+++S+QsDE+RHm+lGle++k+lle++e+n+pi+q ++dk+fWr++rl+ l v++m dY++p+  +S+ke w+ ++ve++ga+++dl +yGlk+Pky e a+ e+dh++h+++ ++y++ ++++++   ++++++ wl+ekyp+++d+ y+++++ ++e+ak  +g+
+  JGI_SLUDGE_AUS_READ_1434013000_1  16 HLSVPKSYFDDASSAGPFEYITSVSFSFEYLLTNLLFVPFMSGAAYNGDMATVTFGFSAQSDESRHMTLGLEIIKFLLEQHEDNLPIVQGWIDKHFWRAYRLLGL-VAMMQDYFLPESPMSWKEGWQIYFVENAGALFNDLGRYGLKMPKYHEIATAEADHISHQVFGIFYNYIHAAAFNLGLPSEQKMNWLSEKYPDTFDKyYRPRMEMWAEMAK--EGK 233
+                                       5789*****************************************************************************************************.***********************************************************************************************************887..655 PP
+
+>> JGI_SLUDGE_US_READ_1404884151_1  /ti=1404884151 /template_id=APZP1585 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=reverse /mate=JGI_SLUDGE_US_READ_1404884061 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1004
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  268.5   5.8   3.6e-82   9.7e-78     239     558 ..       9     279 ..       7     281 .. 0.97
+
+  Alignments for each domain:
+  == domain 1    score: 268.5 bits;  conditional E-value: 3.6e-82
+                    input_aligned 239 killendeknvpilqrdldkafWrshrlfallvglmmdYytpkRveSykefweewiveqlgaflrdlekyGlkkPkyleqaikeldhyhhalalglyalrptvwwrtagmtpeerewleekypgwedr.ygktwdvirerakrrkgseyeevtvdlqprpetlpprcqvcqwpikfr.pgsplrssDWeafrdprq....yngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqaadklrlaqvlayyglelgeddgkealsqgkeawledpaWqglreave 558
+                                      +++le+d++n+pi+q+++dk++Wr++r+++l vg+mmdY++pkR +S+ke+we +++e++ga+++dl++yG+++Pk+l+q+ +++dh++h++++++y++ ++  ++t+ +t++e +wl++kyp+++d+ y+++ +++re    +kg+         +++++tlp++cq+cq+p+ f+ pg+p+         ++++    y+  +Y+fcs++c+eife+                          ep++y++++l+v+++y+g+++   v  +a  f       la+vl yy+l+ g+d+ + ++s+++++++   aW+g++ +++
+  JGI_SLUDGE_US_READ_1404884151_1   9 QFILEQDPDNLPIVQQWIDKWTWRGYRVLTL-VGMMMDYMLPKRIMSWKEAWEVYFEENGGALFKDLARYGIRPPKWLDQIEQDKDHISHQAWATFYNYAAACNFHTWIPTDDELDWLSQKYPNSFDKyYRPRLEHWRE--EAKKGN---------RFYNKTLPMLCQTCQIPMIFTePGDPT---------QICYrevdYKDNKYHFCSDGCKEIFEH--------------------------EPEKYIQAWLPVHQIYQGNCFNEGVDPTAEGFDP-----LAAVLDYYHLNFGRDNLDFEGSEDQKNFE---AWRGMATKNT 279
+                                      589****************************.***********************************************************************************************************..556***.........6*************************9.........77767788*******************..........................**********************************.....******************99*********...****998876 PP
+
+>> JGI_SLUDGE_AUS_READ_1434239807_4  /ti=1434239807 /template_id=AXNZ4083 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434239806 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=999
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  255.7   4.6   2.7e-78   7.3e-74     366     662 ..       9     313 ..       4     328 .. 0.96
+
+  Alignments for each domain:
+  == domain 1    score: 255.7 bits;  conditional E-value: 2.7e-78
+                     input_aligned 366 rygktwdvirerakrrkgseyeevtvdlq......prpetlpprcqvcqwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqaadklrlaqvlayyglelgeddgk.ealsqgkeawledpaWqglreaveeilvaeDwaEalvAlnlvldplldellrsefeevaaangdtltalllsaaeadyertrrwtdalfkld..geeNrellqeWvakwlpraveAvaalapllak.peak 662
+                                       +++ktw++++ r +  k+sey +v+++l+      + p++l p++ ++qw+ k++ g+ l+++DW+afrdp+++ +rtY+ +++++e+++ ++++++++r++++ald++w  +la++++p+ry+ h+lq+++ay+g++ p ++it++++fq+ad+lr+ + +ay+++el+    + ++++++++ w+ed aWqg re++e++l ++Dw  a++ lnl+ +p+++e + +++ e+a++ngd l++l+++a+  d++r+rrw +a +k++  +e Nrel+q+W+a+w+p+a++A++a++++l + p+a+
+  JGI_SLUDGE_AUS_READ_1434239807_4   9 KPQKTWSHLAVRGG--KPSEYDIVSTNLHyndrdpDSPYELAPDMFMNQWYKKNTFGTALKHADWNAFRDPDEVVYRTYNLMQDGQETYVFGLFDQFNQREHDKALDARWAGTLARLYTPARYLFHTLQMASAYVGQVSPASTITNCHYFQMADSLRWLSHTAYRTKELSFTFADkGFGQDERQYWEEDTAWQGFRELMEKTLTTWDWDQAIIVLNLMAKPAIEETVLRRLGEAARHNGDVLLGLITDAQLIDVARHRRWLSAFVKMAleTEGNRELIQSWIAQWQPLADRAIEAYCAALPDvPNAA 313
+                                       579********888..9************8877655****************************************************************************************************************************************9999*******************************************************************************************667*****************************99988776 PP
+
+>> JGI_SLUDGE_AUS_READ_1434218349_2  /ti=1434218349 /template_id=AXNY19587 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434218350 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1215
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  238.2   8.6   5.6e-73   1.5e-68     368     673 ..      16     332 ..       1     336 [. 0.86
+
+  Alignments for each domain:
+  == domain 1    score: 238.2 bits;  conditional E-value: 5.6e-73
+                     input_aligned 368 gktwdvirerakrrkgseyeevtvdlq.......prpetlpprcqvcqwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqaadklrlaqvlayyglelgeddgk.ealsqgkeawledpaWqglreaveeilvaeDwaEalvAlnlvldplldellrsefeevaaangdtltalllsaaeadyertrrwtdalfkld..geeNrellqeWvakwlpraveAvaalapllak.peak..aaervearlak 673
+                                       +k+ ++ ++  k +k  e ++ ++++        p     pp++ ++qw+ k++ g+ l+++DW+afrdp+++ +rtY+ +++++e+++ ++++++++r++++ald++w  +la++++p+ry+ h+lq+++ay+g++ p ++it++++fq+ad+lr+ + +ay+++el+    + ++++++++ w+ed aWqg re++e++l ++Dw  a++ lnl+ +p+++e + +++ e+a++ngd l++l+++a+  d++r+rrw +a +k++  +e Nrel+q+W+a+w+p+a++A++a++++l + p+a+  a +++++++++
+  JGI_SLUDGE_AUS_READ_1434218349_2  16 KKKKKKKKK--KXKKRRERRQCSCMAAxstledpPXRMNXPPDMFMNQWYKKNTFGTALKHADWNAFRDPDEVVYRTYNLMQDGQETYVFGLFDQFNQREHDKALDARWAGTLARLYTPARYLFHTLQMASAYVGQVSPASTITNCHYFQMADSLRWLSHTAYRTKELSFTFADkGFGQDERQYWEEDTAWQGFRELMEKTLTTWDWDQAIIVLNLMAKPAIEETVLRRLGEAARHNGDVLLGLITDAQLIDVARHRRWLSAFVKMAleTEGNRELIQSWIAQWQPLADRAIEAYCAALPDvPNAAetAIAATHDLRRS 332
+                                       111122222..2222222223333333455555557777899*********************************************************************************************************************************9999*******************************************************************************************667********************************999986535555555555 PP
+
+>> JGI_SLUDGE_AUS_READ_1434232053_6  /ti=1434232053 /template_id=AXNY28741 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434232054 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1119
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  224.9   6.6     6e-69   1.6e-64     408     673 ..       7     278 ..       4     282 .. 0.95
+
+  Alignments for each domain:
+  == domain 1    score: 224.9 bits;  conditional E-value: 6e-69
+                     input_aligned 408 qwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqaadklrlaqvlayyglelgeddgk.ealsqgkeawledpaWqglreaveeilvaeDwaEalvAlnlvldplldellrsefeevaaangdtltalllsaaeadyertrrwtdalfkld..geeNrellqeWvakwlpraveAvaalapllak.peak..aaervearlak 673
+                                       qw+ + + g+ ++++DW+afrdp+++ +rtY+ +++++e+ + ++++++++r++++ald++w  +la++++p+ry+ h+lq+++ay+g++ p ++it++++fq+ad+lr+ + +ay+++el+    + ++++++++ w+ed aWqg re++e++l ++Dw  a++ lnl+ +p+++e + +++ e+a++ngd l++l+++a+  d++r+rrw +a +k++  +e Nrel+q+W+a+w+p+a++A++a++++l + p+a+  a +++++++++
+  JGI_SLUDGE_AUS_READ_1434232053_6   7 QWYTNDTFGTAFKHADWNAFRDPDEVVYRTYNVMQDGQETXVFGLFDQCNQREHDKALDARWXGTLARLYTPARYLFHTLQMASAYVGQVSPASTITNCHYFQMADSLRWLSHTAYRTKELSFTFADkGFGQDERQYWEEDTAWQGFRELMEKTLTTWDWDQAIIVLNLMAKPAIEETVLRRLGEAARHNGDVLLGLITDAQLIDVARHRRWLSAFVKMAleTEGNRELIQSWIAQWQPLADRAIEAYCAALPDvPNAAetAIAATHDLRRS 278
+                                       888888989999****************************************************************************************************************9999*******************************************************************************************667********************************999986535555555555 PP
+
+>> JGI_SLUDGE_US_READ_1404892471_2  /ti=1404892471 /template_id=APZP7841 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=reverse /mate=JGI_SLUDGE_US_READ_1404892379 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1032
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  223.6   3.8   1.4e-68   3.8e-64     366     625 ..      79     343 ..      58     344 .] 0.96
+
+  Alignments for each domain:
+  == domain 1    score: 223.6 bits;  conditional E-value: 1.4e-68
+                    input_aligned 366 rygktwdvirerakrrkgseyeevtvdlq......prpetlpprcqvcqwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqaadklrlaqvlayyglelgeddgk.ealsqgkeawledpaWqglreaveeilvaeDwaEalvAlnlvldplldellrsefeevaaangdtltalllsaaeadyertrrwtdalfkl 625
+                                      +++ktw++++   +rrk+seye+v+ +l+        p++l+p + +++w+ k++  + l+++DW+afrdp+++ +rtY+ +++++e+++ ++++++++r++++ald++w  +la++++p+ry+ h+lq+++ay+g++ p +++t++ +fq+ad+lr+++ +ay++ el+ + ++ ++  +++  w+edpaWqg re++e++l ++Dw+Ea++ l lv++p+++e + +++ e+ ++ngdtl+ l+++a+  d++r+rrwt+a +++
+  JGI_SLUDGE_US_READ_1404892471_2  79 KPQKTWSHLAA--RRRKPSEYEIVSANLHyndrdpNSPYELDPGMFMNEWFKKNTFATALKHEDWNAFRDPDEVVYRTYNLMQDGQETYVFSLFDQFSEREHDKALDPRWAGTLARLYTPARYLFHTLQMASAYVGQVSPASTLTNCNYFQMADSLRWVSHTAYRTRELSLAFPDkGFARDERSYWEEDPAWQGFRELMERALTVWDWGEAITVLSLVVKPAVEEAVLRRLGEAGRHNGDTLLXLVTDAQLIDVARHRRWTAAFVAM 343
+                                      4699*******..889*************8877655*******************99**********************************************************************************************************************999999**********************************************************************************9986 PP
+
+>> JGI_SLUDGE_US_READ_1404744064_6  /ti=1404744064 /template_id=APZO31401 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404744418 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1120
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  215.6   0.5   3.8e-66     1e-61       1     156 [.     187     344 ..     187     349 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 215.6 bits;  conditional E-value: 3.8e-66
+                    input_aligned   1 mkllsreeyydltrdldWepsYvkeeelfptd..ktegikiedwekwedpfkltyreYvkmqaeKderlYavldalarsnllekvdprwlealklflgavallEyaAaraearlarfvkapelrnaatfqslDElRHaqiqiylkseyvkkyrgfdwa 156
+                                      m+ l+r+++ydl+r+ +W+p+Yv+e+elfp +  +  g++ ++we++++p+k+ty eYvk+q+eKd+++Y+v++al+rs+ +e++dp+w++++k+++ga+a +EyaAa+aear++rf kap++rn+ t + +DE+RH+q+q+y+++e+v+k+r++dwa
+  JGI_SLUDGE_US_READ_1404744064_6 187 MAVLNRMDWYDLARSANWTPRYVTEDELFPPKlsGEFGLPLSAWESYDEPYKQTYPEYVKVQREKDAGAYSVKAALERSRIFENADPGWKSVMKAHYGAIARGEYAAASAEARMMRFSKAPGMRNMSTLGCMDEIRHGQMQLYFPHEHVSKDRQMDWA 344
+                                      56789****************************999*************************************************************************************************************************8 PP
+
+>> JGI_SLUDGE_AUS_READ_1434230008_2  /ti=1434230008 /template_id=AXNY26799 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434230007 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1126
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  209.2   1.4   3.3e-64   8.9e-60       1     171 [.     201     374 .]     201     374 .] 0.99
+
+  Alignments for each domain:
+  == domain 1    score: 209.2 bits;  conditional E-value: 3.3e-64
+                     input_aligned   1 mkllsreeyydltrdldWepsYvkeeelfptd..ktegikiedwekwedpfkltyreYvkmqaeKderlYavldalarsnllekvdprwlealklflgavallEyaAaraearlarfvkapelrnaatfqslDElRHaqiqiylkseyvkkyrgfdwa.kamhtnewllivars 171
+                                       m+ l+r+++y+l+r+++W+p+Yv+e+elfp +  +  g++ ++wek+++p+k+ty eYvk+q+eKd+++Y+v++al+rs+ +e++dp+w++++k+++ga+a +EyaAa+aear++r  kap++rn+ t + +DE+R +qi +y++ e+v ++r +d a k + tnew++i+ar+
+  JGI_SLUDGE_AUS_READ_1434230008_2 201 MAVLNRMDWYNLARSTNWTPKYVTEDELFPPQlsGEFGLPLSAWEKYDEPYKQTYPEYVKVQREKDAGAYSVKAALERSRIFENADPGWKSVMKAHYGAIARGEYAAASAEARMMRXSKAPGMRNMSTLGCMDEIRQGQIAVYFPXELVFQDRAMDCAfKVYETNEWAMIAARH 374
+                                       56789****************************999****************************************************************************************************************************************97 PP
+
+>> JGI_SLUDGE_AUS_READ_1434226797_6  /ti=1434226797 /template_id=AXNY24941 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1214
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  207.0   4.1   1.6e-63   4.2e-59     245     485 ..     156     354 ..     149     381 .. 0.90
+
+  Alignments for each domain:
+  == domain 1    score: 207.0 bits;  conditional E-value: 1.6e-63
+                     input_aligned 245 deknvpilqrdldkafWrshrlfallvglmmdYytp..kRveSykefweewiveqlgaflrdlekyGlkkPkyleqaikeldhyhhalalglyalrptvwwr.tagmtpeerewleekypgwedrygktwdvirerakrrkgseyeevtvdlqprpetlpprcqvcqwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryveh 485
+                                       ++k  +++q+ +d a W +++lf++l+g +mdYytp  +R++S+kef+eewiv q   f r l++ Gl+ P+y++ ++++l++ hh ++lg y++rptvww+ +ag+tp+er+wleekypgw+d++g+ wdv++e+++   g+ +       + +petlp++c++cq+pi   pg+++ ++D      p +yngr Y+f se  +++f++                          + +ry++h
+  JGI_SLUDGE_AUS_READ_1434226797_6 156 GKK--EEAQKRVDVALWGAWKLFSVLTGPIMDYYTPleHRKQSFKEFMEEWIVAQ---FERALTDMGLDLPWYWDIFLNDLNDTHHGMHLGSYFWRPTVWWNpAAGITPAERDWLEEKYPGWNDTWGECWDVFIENVV--DGNMD-------KAYPETLPYVCNMCQLPILGVPGKKWNVKDY-----PLEYNGRLYHFGSEVDRWCFQQ--------------------------DTERYAGH 354
+                                       334..59************************************************...*****************************************************************************888..88843.......38***********************755554.....888*******************..........................44444444 PP
+
+>> JGI_SLUDGE_AUS_READ_1434111830_1  /ti=1434111830 /template_id=AXNY19013 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434111829 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1151
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  205.9   4.9   3.3e-63     9e-59     366     623 ..     105     367 ..      81     382 .. 0.95
+
+  Alignments for each domain:
+  == domain 1    score: 205.9 bits;  conditional E-value: 3.3e-63
+                     input_aligned 366 rygktwdvirerakrrkgseyeevtvdlq......prpetlpprcqvcqwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqaadklrlaqvlayyglelgeddgk.ealsqgkeawledpaWqglreaveeilvaeDwaEalvAlnlvldplldellrsefeevaaangdtltalllsaaeadyertrrwtdalf 623
+                                       +++ktw++++   +rrk+sey +v+++l+      + p++l p++ ++qw+ k++ g+ l+++DW+afrdp+++ +rtY+ +++++e+++ ++++++++r++++ald++w  +la++++p+ry+ h+lq+++ay+g++ p ++it++++fq+ad+lr+ + +ay+++el+    + ++++++++ w+ed aWqg re++e++l ++Dw  a++ lnl+ +p+++e + +++ e+a++ngd l++l+++a+  d+er+   ++ l+
+  JGI_SLUDGE_AUS_READ_1434111830_1 105 KPQKTWSHLAV--RRRKPSEYDIVSTNLHyndrdpDSPYELAPDMFMNQWYKKNTFGTALKHADWNAFRDPDEVVYRTYNLMQDGQETYVFGLFDQFNQREHDKALDARWAGTLARLYTPARYLFHTLQMASAYVGQVSPASTITNCHYFQMADSLRWLSHTAYRTKELSFTFADkGFGQDERQYWEEDTAWQGFRELMEKTLTTWDWDQAIIVLNLMAKPAIEETVLRRLGEAARHNGDVLLGLITDAQLIDVERQSSLVELLL 367
+                                       5799*******..889*************8877655****************************************************************************************************************************************9999********************************************************************************998877665 PP
+
+>> JGI_SLUDGE_AUS_READ_1434097865_4  /ti=1434097865 /template_id=AXNY10895 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434097864 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1110
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  173.6   0.6   1.9e-53   5.2e-49     338     584 ..     102     341 ..      96     352 .. 0.87
+
+  Alignments for each domain:
+  == domain 1    score: 173.6 bits;  conditional E-value: 1.9e-53
+                     input_aligned 338 rptvwwrtagmtpeerewleekypgwedrygktwdvirerak.rrkgseyeevtvdlqp.rpetlpprcqvcqwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqaadklrlaqvlayyglelgeddgkealsqgkeawledpaWqglreaveeilvaeDwaEalvAlnlvldplldel 584
+                                       r++ +wr   m+   ++        ++++++  + +i++r++  +++++y+e+ +d+qp +++ +pp  +  +    +++  +  ++DW++f+dprq+++ +Yv +++k++ei+e+++e +ekr+ll+ l++e+ + +++vl plr++e+g++++++ +++ ++gt+it++a f+ +d++++aq++++++l l++ +++++l+++k+awl dpaWqglr+ +e+ +v++Dw+E+l+ +++ +d +l  +
+  JGI_SLUDGE_AUS_READ_1434097865_4 102 RQVCYWRRTCMSLNIAAK-------EIKPLRLNYGHIARRIGeHKPATRYQEAVYDVQPtTNFHYPPSWDPSRKLYDTART-QVVMQDWYSFTDPRQFYYTSYVAARAKQQEIMESNFELVEKRDLLQGLKPELAAQIRQVLIPLRHYEYGANMNNQDICHRGYGTTITSLASFNGFDRIGMAQYVSRIALLLDG-NEDTSLTAAKQAWLHDPAWQGLRHVMEDSFVLDDWFEILLVQDVLMDAALSVI 341
+                                       566666666666666666.......8899999*******9999***************54555555555444444444432.3369***********************************************************************************************************75.678*****************************************999888765 PP
+
+>> JGI_SLUDGE_US_READ_1404624592_5  /ti=1404624592 /template_id=APZO23682 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404624685 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1078
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  167.0   6.3   1.9e-51   5.1e-47     288     553 ..      24     241 ..      19     248 .. 0.95
+
+  Alignments for each domain:
+  == domain 1    score: 167.0 bits;  conditional E-value: 1.9e-51
+                    input_aligned 288 efweewiveqlgaflrdlekyGlkkPkyleqaikeldhyhhalalglyalrptvwwrtagmtpeerewleekypgwedr.ygktwdvirerakrrkgseyeevtvdlqprpetlpprcqvcqwpikfr.pgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqaadklrlaqvlayyglelgeddgkealsqgkeawledpaWqgl 553
+                                       +we + ++++ a+++dl++yG+k+Pk +eqa+k++dh++h+++ ++y++ +++ ++t+ +++++++wl++kyp+++d+ y++ w++++++++  +g+         ++++ tlp++cqvcq+p+ f+ p++p+      a+r+ ++y+g +Y+ cs++c++if++                          ep++y++ +l+v+++y+g+++p +v  +   f+      la+vl +y ++ ged+ ++a s +k++++    W+ +
+  JGI_SLUDGE_US_READ_1404624592_5  24 RAWEIYAEQNGAALFNDLARYGIKVPKGWEQACKDKDHLSHQAWNVFYNYGAAAPFHTWAPSEKDMDWLSAKYPETFDKyYRPLWQHYAKEQA--EGK---------RFYNGTLPMLCQVCQVPMFFTePDDPT----KVAYRE-SEYKGMKYHCCSDGCKHIFDN--------------------------EPEKYAQSWLPVHQIYQGNCFPEDVDPTQPDFNP-----LAEVLRWYKIRQGEDNMDYADSPDKKNFE---NWRSQ 241
+                                      58****************************************************************************************777..888.........69*******************9****9....445555.66*******************..........................**********************************.....****************************9...77655 PP
+
+>> JGI_SLUDGE_AUS_READ_1434248184_5  /ti=1434248184 /template_id=AXNZ9055 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434248185 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=920
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  156.6   0.8   2.7e-48   7.4e-44       1     121 [.     173     295 ..     173     301 .. 0.97
+
+  Alignments for each domain:
+  == domain 1    score: 156.6 bits;  conditional E-value: 2.7e-48
+                     input_aligned   1 mkllsreeyydltrdldWepsYvkeeelfptd..ktegikiedwekwedpfkltyreYvkmqaeKderlYavldalarsnllekvdprwlealklflgavallEyaAaraearlarfvkapel 121
+                                       m+ l+r+++y+l+r+++W+p+Yv+e+elfp +  +  g++ ++wek+++p+k+ty eYvk+q+eKd+++Y+v++al+rs+ +e++dp+w++++k+++ga+a +EyaAa+aear++rf kap++
+  JGI_SLUDGE_AUS_READ_1434248184_5 173 MAVLNRMDWYNLARSTNWTPKYVTEDELFPPQlsGEFGLPLSAWEKYDEPYKQTYPEYVKVQREKDAGAYSVKAALERSRIFENADPGWKSVMKAHYGAIARGEYAAASAEARMMRFSKAPGI 295
+                                       56789****************************999************************************************************************************997 PP
+
+>> JGI_SLUDGE_AUS_READ_1434048356_5  /ti=1434048356 /template_id=AXNY5771 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434048357 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1155
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  154.5   5.2   1.2e-47   3.2e-43     366     554 ..     168     361 ..     144     368 .. 0.95
+
+  Alignments for each domain:
+  == domain 1    score: 154.5 bits;  conditional E-value: 1.2e-47
+                     input_aligned 366 rygktwdvirerakrrkgseyeevtvdlq......prpetlpprcqvcqwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqaadklrlaqvlayyglelgeddgk.ealsqgkeawledpaWqglr 554
+                                       +++ktw++++   +rrk+sey +v+++l+      + p++l p++ ++qw+ k++ g+ l+++DW+afrdp+++ +rtY+ +++++e+++ ++++++++r++++ald++w  +la++++p+ry+ h+lq+++ay+g++ p ++it++++fq+ad+lr+ + +ay+++el+    + ++++++++ w+ed aWqg +
+  JGI_SLUDGE_AUS_READ_1434048356_5 168 KPQKTWSHLAV--RRRKPSEYDIVSTNLHyndrdpDSPYELAPDMFMNQWYKKNTFGTALKHADWNAFRDPDEVVYRTYNLMQDGQETYVFGLFDQFNQREHDKALDARWAGTLARLYTPARYLFHTLQMASAYVGQVSPASTITNCHYFQMADSLRWLSHTAYRTKELSFTFADkGFGQDERQYWEEDTAWQGWD 361
+                                       5799*******..889*************8877655****************************************************************************************************************************************9999*****************987 PP
+
+>> JGI_SLUDGE_US_READ_1404979663_4  /ti=1404979663 /template_id=APZP23497 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=reverse /mate=JGI_SLUDGE_US_READ_1404979576 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=969
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  148.1   0.3     1e-45   2.7e-41     362     530 ..     150     317 ..     136     322 .. 0.95
+
+  Alignments for each domain:
+  == domain 1    score: 148.1 bits;  conditional E-value: 1e-45
+                    input_aligned 362 gwedrygktwdvirerakrrkgseyeevtvdlqprpetlpprcqvcqwpikfrpgspl........rssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqaadklrlaqvlayyglelge 530
+                                      ++++r   +++++ +  k++++++ye+vtvd+qp+pe    r+ +++w+i+f++g+          +ss+W+afr+p+q+++rt++++++k+e+++++v+ +a+++g+++++d+ w k+l+ +l++ +++e+gl++++++a+ry+++++i++a+l+++++klrlaq+++ y +e+g+
+  JGI_SLUDGE_US_READ_1404979663_4 150 DSDSR---KYRYFDP--KGQRATHYEDVTVDVQPDPE----RYLIQDWIISFSNGKGAyikdntaaQSSNWHAFRAPDQEWERTHYQRQSKIETMVQSVITNARRAGAPKTFDKVWIKILQAHLGAWKHAEFGLGTSLMQAQRYGYTQMINNATLTNSSYKLRLAQDITLYLAEIGR 317
+                                      56666...9******..778*****************....89**************9******************************************************************************************************************99976 PP
+
+>> JGI_SLUDGE_US_READ_1404974572_1  /ti=1404974572 /template_id=APZP20392 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404974658 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1045
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  147.4   0.4   1.7e-45   4.5e-41       2     123 ..     180     302 ..     179     305 .. 0.97
+
+  Alignments for each domain:
+  == domain 1    score: 147.4 bits;  conditional E-value: 1.7e-45
+                    input_aligned   2 kllsreeyydltrdldWepsYvkeeelfptdktegikiedwekwedpfkltyreYvkmqaeKderlYavldalars.nllekvdprwlealklflgavallEyaAaraearlarfvkapelrn 123
+                                      kl  +e+y+ +trdl W+psY+  +++fp+ ++egiki+dw+k+edpf++t+++Y+k+qaeK+++lYa++da++++ ++l  +d r++++lklfl++v+ lEy+A+r++a+++r+ +   +r+
+  JGI_SLUDGE_US_READ_1404974572_1 180 KLGLKERYNLMTRDLAWNPSYQAVKDVFPYMEYEGIKIHDWDKFEDPFRMTMDSYWKYQAEKERKLYAIIDAFTQNnGHLGVTDGRYINTLKLFLTGVSSLEYMAHRGFAHVGRQYPRRRPRV 302
+                                      78899**************************************************************************************************************99888775 PP
+
+>> JGI_SLUDGE_US_READ_1404749847_3  /ti=1404749847 /template_id=APZO36111 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=reverse /mate=JGI_SLUDGE_US_READ_1404749501 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1043
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  127.3   0.0     2e-39   5.5e-35       6     125 ..     166     279 ..     161     282 .. 0.95
+
+  Alignments for each domain:
+  == domain 1    score: 127.3 bits;  conditional E-value: 2e-39
+                    input_aligned   6 reeyydltrdldWepsYvkeeelfptdktegikiedwekwedpfkltyreYvkmqaeKderlYavldalarsnllekvdprwlealklflgavallEyaAaraearlarfvkapelrnaa 125
+                                        e+ +++ dl W+p+Yv+e+++fptd     +++++ + +dp+k+++r+Y++mq+eKd+r+Y++lda++r++++++v+prw+e++klfl++++++E++Aar++a++ar ++++ lr+++
+  JGI_SLUDGE_US_READ_1404749847_3 166 VGEATKKISDLGWNPTYVQEAMTFPTD-----YKIAK-APRDPMKQVLRSYFPMQEEKDNRVYGALDAALRGDMFRNVEPRWVEWMKLFLAIIPFPEISAARSMAMVARLAPGEDLRTGF 279
+                                      5678899********************.....99999.999****************************************************************************985 PP
+
+>> JGI_SLUDGE_US_READ_1404736571_5  /ti=1404736571 /template_id=APZO30539 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=reverse /mate=JGI_SLUDGE_US_READ_1404736220 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=916
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  120.8   0.0   1.9e-37     5e-33     349     519 ..     132     296 ..     108     302 .. 0.88
+
+  Alignments for each domain:
+  == domain 1    score: 120.8 bits;  conditional E-value: 1.9e-37
+                    input_aligned 349 tpeerewleekypgwedrygktwdvirerak.rrkgseyeevtvdlq.p.....rpetlpprcqvcqwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqaadklrlaq 519
+                                        + r++       +++++++t+d+i++r++ ++++s+y+e+t+d+q +     rp+++p      + +    + s ++++DW+af+dprq+++  Y+ +++k++e++e++++++e rgl+e+l++e+++++ ++l plr++ +g +++ a + +y++gt++tq++l++++d+l++aq
+  JGI_SLUDGE_US_READ_1404736571_5 132 HIDLRTV-------SIKPQRQTFDHIARRIGpDKAASRYQEGTLDVQaThnfhyRPTWDP-----EHEIFDA-SRSAIKMADWYAFKDPRQFYYGAYTLARAKQQETAESNFDFVEGRGLAETLPAELKETVLKLLIPLRHAAWGGNMNGAFITAYGYGTALTQPCLYHSMDQLGIAQ 296
+                                      5555555.......88999****************************7244455888886.....2332222.44666***************************************************************************************************9 PP
+
+>> JGI_SLUDGE_AUS_READ_1434247841_1  /ti=1434247841 /template_id=AXNZ8841 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434247842 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=990
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  105.9   0.8     6e-33   1.6e-28     336     532 ..      18     180 ..      15     209 .. 0.89
+
+  Alignments for each domain:
+  == domain 1    score: 105.9 bits;  conditional E-value: 6e-33
+                     input_aligned 336 alrptvwwr.tagmtpeerewleekypgwedrygktwdvirerakrrkgseyeevtvdlqprpetlpprcqvcqwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqa.....adklrlaqvlayyglelgedd 532
+                                       a +ptvww+ +ag+tp+er+wleekypgw+d++g+ wdv++e+++   g+ +       + +petlp++c++cq+pi   pg+++ ++D      p +yngr Y+f se  +++f++                          + +ry++h   v+r+ ag+++p++  +++ +++      +d++ ++++++ y++ ++  +
+  JGI_SLUDGE_AUS_READ_1434247841_1  18 AXWPTVWWNpAAGITPAERDWLEEKYPGWNDTWGECWDVFIENVV--DGNMD-------KAYPETLPYVCNMCQLPILGVPGKKWNVKDY-----PLEYNGRLYHFGSEVDRWCFQQ--------------------------DTERYAGHLSIVDRFLAGMIQPMNLEGALKYMNIgpgecGDDAHNYAWAEVYRALREARK 180
+                                       68****************************************888..88843.......38***********************755554.....888*******************..........................9***********************999999999999999999999999999998886543 PP
+
+>> JGI_SLUDGE_AUS_READ_1434243139_4  /ti=1434243139 /template_id=AXNZ6000 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434243140 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=988
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.9   0.5   3.2e-27   8.6e-23     338     498 ..     157     311 ..     151     320 .. 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 86.9 bits;  conditional E-value: 3.2e-27
+                     input_aligned 338 rptvwwrtagmtpeerewleekypgwedrygktwdvirerak.rrkgseyeevtvdlqp.rpetlpprcqvcqwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagrya 498
+                                       r++ +wr   m+   ++        ++++++  + +i++r++  +++++y+e+ +d+qp +++ +pp  +  +    +++  +  ++DW++f+dprq+++ +Yv +++k++ei+e+++e +ekr+ll+ l++e+ + +++vl plr++e+g++++++ +++ +
+  JGI_SLUDGE_AUS_READ_1434243139_4 157 RQVCYWRRTCMSLNIAAK-------EIKPLRLNYGHIARRIGeHKPATRYQEAVYDVQPtTNFHYPPSWDPSRKLYDTART-QVVMQDWYSFTDPRQFYYTSYVAARAKQQEIMESNFELVEKRDLLQGLKPELAAQIRQVLIPLRHYEYGANMNNQDICHRG 311
+                                       566666666666666666.......8899999*******9999***************54555555555444444444432.3369***********************************************************************988766 PP
+
+>> JGI_SLUDGE_US_READ_1404886900_3  /ti=1404886900 /template_id=APZP3536 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404886986 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=950
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.9   0.1   6.7e-27   1.8e-22     329     556 ..       8     175 ..       6     178 .. 0.92
+
+  Alignments for each domain:
+  == domain 1    score: 85.9 bits;  conditional E-value: 6.7e-27
+                    input_aligned 329 alalglyalrptvwwrtagmtpeerewleekypgwedrygktwdvirerakrrkgseyeevtvdlqprpetlpprcqvcqwpikfr.pgsplrssDWeafrdprq....yngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqaadklrlaqvlayyglelgeddgkealsqgkeawledpaWqglrea 556
+                                      +++++ly++++++ ++t+++t+e++ewl+++yp+ ++ +++ wd+ +++++  +g          +  +  lp +c vcq+p+ f+ pg+p+         +++q    ++g+ ++fcs++c++if +                          ep++yv+++l+v+++ +g++++ t               + +vla+y + ++ d g++++s ++++wl   +W+ ++e+
+  JGI_SLUDGE_US_READ_1404886900_3   8 QVYWTLYQFSHAASFTTSVPTDEHMEWLSANYPKFDEYFKPLWDKEKRNLA--AGG---------RHFARGLPELCTVCQIPMLFTePGDPT---------TICQraseFEGEHFNFCSDGCKNIFNH--------------------------EPEKYVQAWLPVHQIFQGNCGGAT---------------IPDVLAWYKMTPD-DGGEYLGSLDNKNWL---EWHDMAEK 175
+                                      68899*******************************************888..888.........477888999*****************9.........66666667*******************..........................************************...............************4.4566***********...99887765 PP
+
+>> JGI_SLUDGE_AUS_READ_1434043400_2  /ti=1434043400 /template_id=AXNY2635 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1192
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.2   0.9   1.4e-24   3.7e-20     366     531 ..     202     371 ..     178     382 .. 0.90
+
+  Alignments for each domain:
+  == domain 1    score: 78.2 bits;  conditional E-value: 1.4e-24
+                     input_aligned 366 rygktwdvirerakrrkgseyeevtvdlq......prpetlpprcqvcqwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqaadklrlaqvlayyglelged 531
+                                       +++ktw++++   +rrk+sey +v+++l+      + p++l p++ ++qw+ k++ g+ l+++DW+afrdp+++ +rtY+ +++++e+++ +++++++++    +l  ++ ++ + ++ p       l      +     + +  q+++fq+ d+lr++  + y+++el+++
+  JGI_SLUDGE_AUS_READ_1434043400_2 202 KPQKTWSHLAV--RRRKPSEYDIVSTNLHyndrdpDSPYELAPDMFMNQWYKKNTFGTALKHADWNAFRDPDEVVYRTYNLMQDGQETYVFGLFDQFNQTRTXXSLRCTLGRYTRAFIYPGALSVSHLTNGFSLCRSSVARXYYXQCHYFQMXDSLRWVNHTGYRTKELSSP 371
+                                       5799*******..889*************8877655****************************************************************************9999999999888887777777777777888889*********************99765 PP
+
+>> JGI_SLUDGE_AUS_READ_1434048357_3  /ti=1434048357 /template_id=AXNY5771 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434048356 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1223
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.3   0.0   4.3e-23   1.2e-18     208     280 ..      33     103 ..      28     107 .. 0.90
+
+  Alignments for each domain:
+  == domain 1    score: 73.3 bits;  conditional E-value: 4.3e-23
+                     input_aligned 208 AaanGDvafptvilSiQsDEaRHmqlGletlkillendeknvpilqrdldkafWrshrlfallvglmmdYytp 280
+                                       Aa++G   +    +SiQ+DE+RH+q+G ++lkil++n++k+  ++q+ +d a W +++lf++l+g +mdYy+p
+  JGI_SLUDGE_AUS_READ_1434048357_3  33 AARSGXSYVCXPDSSIQTDESRHAQIGGPALKILIANGKKE--EAQKRVDVALWGAWKLFSVLTGPIMDYYSP 103
+                                       66666666666679**************************9..****************************98 PP
+
+>> JGI_SLUDGE_AUS_READ_1434232054_1  /ti=1434232054 /template_id=AXNY28741 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434232053 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=956
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.8   0.1   1.2e-22   3.2e-18     355     532 ..      31     172 ..      21     203 .. 0.87
+
+  Alignments for each domain:
+  == domain 1    score: 71.8 bits;  conditional E-value: 1.2e-22
+                     input_aligned 355 wleekypgwedrygktwdvirerakrrkgseyeevtvdlqprpetlpprcqvcqwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqa.....adklrlaqvlayyglelgedd 532
+                                       w  +k pgw+d++g+ wdv++e+++   g+ +       + +petlp++c++cq+pi   pg+++ ++D      p +yngr Y+f se  +++f++                          + +ry++h   v+r+ ag+++p++  +++ +++      +d++ ++++++ y++ ++  +
+  JGI_SLUDGE_AUS_READ_1434232054_1  31 W-XKKIPGWNDTWGECWDVFIENVV--DGNMD-------KAYPETLPYVCNMCQLPILGVPGKKWNVKDY-----PLEYNGRLYHFGSEVDRWCFQQ--------------------------DTERYAGHLSIVDRFLAGMIQPMNLEGALKYMNIgpgecGDDAHNYAWAEVYRALREARK 172
+                                       4.89******************888..88843.......38***********************755554.....888*******************..........................9***********************999999999999999999999999999998886543 PP
+
+>> JGI_SLUDGE_AUS_READ_1434043399_2  /ti=1434043399 /template_id=AXNY2635 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1225
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.7   0.3   1.1e-21   2.9e-17     366     518 ..     190     346 ..     166     348 .. 0.89
+
+  Alignments for each domain:
+  == domain 1    score: 68.7 bits;  conditional E-value: 1.1e-21
+                     input_aligned 366 rygktwdvirerakrrkgseyeevtvdlq......prpetlpprcqvcqwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqaadklrla 518
+                                       +++ktw++++   +rrk+sey +v+++l+      + p++l p++ ++qw+ k++ g+ l+++DW+afrdp+++ +rtY+ +++++e+++ ++++++++r+   +l  ++ ++ +  + p       l      +    ++ +  q+ lfq++d+lr++
+  JGI_SLUDGE_AUS_READ_1434043399_2 190 KPQKTWSHLAV--RRRKPSEYDIVSTNLHyndrdpDSPYELAPDMFMNQWYKKNTFGTALKHADWNAFRDPDEVVYRTYNLMQDGQETYVFGLFDQFNQREPXXSLRCTLGRYTRAXIYPGALSVSHLTNGFSLCRSSVGPXYYYQLPLFQMGDSLRWS 346
+                                       5799*******..889*************8877655*************************************************************************99999888888888877777777777777788899999999999999985 PP
+
+>> JGI_SLUDGE_US_READ_1404567971_3  /ti=1404567971 /template_id=APZO16309 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404568312 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=718
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.3   0.9   1.4e-21   3.9e-17     379     553 ..      24     165 ..       1     173 [. 0.75
+
+  Alignments for each domain:
+  == domain 1    score: 68.3 bits;  conditional E-value: 1.4e-21
+                    input_aligned 379 krrkgseyeevtvdlq....p......rpetlpprcqvcqwpikfr.pgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqaadklrlaqvlayyglelgeddgkealsqgkeawledpaWqgl 553
+                                      k++k++       +l+    p      r   + p+cqvcq+p+ f+ p++p+      a+r+ ++y+g +Y+ cs++c++if++                          ep++y++ +l+v+++y+g+++p +v  +   f+      la+vl +y ++ ged+ ++a s +k++++    W+ +
+  JGI_SLUDGE_US_READ_1404567971_3  24 KKKKKN----XPAPLHaravPacmpagRLXRI-PLCQVCQVPMFFTePDDPT----KVAYRE-SEYKGMKYHCCSDGCKHIFDN--------------------------EPEKYAQSWLPVHQIYQGNCFPEDVDPTQPDFNP-----LAEVLRWYKIRQGEDNMDYADSPDKKNFE---NWRSQ 165
+                                      222222....2223332233245455555555.59***********9****9....445555.66*******************..........................**********************************.....****************************9...77665 PP
+
+>> JGI_SLUDGE_US_READ_1404539692_6  /ti=1404539692 /template_id=APZO9128 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404539779 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=887
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.2   0.9   1.2e-20   3.3e-16     352     463 ..     162     274 ..     152     277 .. 0.81
+
+  Alignments for each domain:
+  == domain 1    score: 65.2 bits;  conditional E-value: 1.2e-20
+                    input_aligned 352 erewleekypgwedrygktwdvirerak.rrkgseyeevtvdlq.p.....rpetlpprcqvcqwpikfr.pgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrglle 463
+                                      e  +  +  + +++++++t+d+i++r++ ++++++y+e+t+d+q +     rp+++p        +  f  + s +r++DW+af+dprq+++  Y+ +++k++e++e++++++e rgl++
+  JGI_SLUDGE_US_READ_1404539692_6 162 ETHMHIDLRTVSIKPQRQTFDHIARRIGpDKAATRYQEGTLDVQaThnfhyRPTWDP-------DYEIFDaSRSAIRMADWYAFKDPRQFYYGAYTLARAKQQETAESNFDFVEGRGLAD 274
+                                      444444445559999*****************************6244555888886.......333344366667****************************************9986 PP
+
+>> JGI_SLUDGE_AUS_READ_1434230007_5  /ti=1434230007 /template_id=AXNY26799 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434230008 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1186
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.6   0.0   9.5e-18   2.6e-13     366     531 ..      46     176 ..      33     204 .. 0.86
+
+  Alignments for each domain:
+  == domain 1    score: 55.6 bits;  conditional E-value: 9.5e-18
+                     input_aligned 366 rygktwdvirerakrrkgseyeevtvdlqprpetlpprcqvcqwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqa.....adklrlaqvlayyglelged 531
+                                        +g++w+v++e+++   g+ +       + +petlp++c++cq+pi   pg+++ ++D      p +yngr Y+f se  +++f++                          + +ry++h   v+r+ ag+++p++  +++ +++      +d++ ++++++ y++ ++  
+  JGI_SLUDGE_AUS_READ_1434230007_5  46 HLGEFWNVFIEKVV--DGNMD-------KAYPETLPYVCNMCQLPILGVPGKKWNVKDY-----PLEYNGRLYHFGSEVDRWCFQQ--------------------------DTERYAGHLSIVDRFLAGMIQPMNLEGALKYMNIgpgecGDDAHNYAWAEVYRALREAR 176
+                                       57899****99888..77743.......38***********************755554.....888*******************..........................9***********************99999999999999999999999999999888654 PP
+
+>> JGI_SLUDGE_AUS_READ_1434269304_4  /ti=1434269304 /template_id=AXNZ23623 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434269303 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=893
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.2   0.1   2.6e-17     7e-13     590     673 ..      28     116 ..       6     120 .. 0.87
+
+  Alignments for each domain:
+  == domain 1    score: 54.2 bits;  conditional E-value: 2.6e-17
+                     input_aligned 590 eevaaangdtltalllsaaeadyertrrwtdalfkld..geeNrellqeWvakwlpraveAvaalapllak.peak..aaervearlak 673
+                                        e+a++ngd l++l+++a+  d++r+rrw +a +k++  +e Nrel+q+W+a+w+p+a++A++a++++l + p+a+  a +++++++++
+  JGI_SLUDGE_AUS_READ_1434269304_4  28 GEAARHNGDVLLGLITDAQLIDVARHRRWLSAFVKMAleTEGNRELIQSWIAQWQPLADRAIEAYCAALPDvPNAAetAIAATHDLRRS 116
+                                       689*********************************667********************************999986535555555555 PP
+
+>> JGI_SLUDGE_US_READ_1404736365_3  /ti=1404736365 /template_id=APZO30696 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404736710 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=548
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.5   0.2   4.3e-17   1.2e-12     395     499 ..      20      94 ..       2     101 .. 0.86
+
+  Alignments for each domain:
+  == domain 1    score: 53.5 bits;  conditional E-value: 4.3e-17
+                    input_aligned 395 prpetlpprcqvcqwpikfr.pgspl....rssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryap 499
+                                      +++ tlp++cqvcq+p+ f+ p++p+    r sDW          g tY+fcs++c+ if++                          ep++yv+ +l+v+++y+g+++ 
+  JGI_SLUDGE_US_READ_1404736365_3  20 FYNGTLPMLCQVCQVPMMFTePDDPTkiayRESDW---------RGNTYHFCSDGCKSIFDH--------------------------EPEKYVQSWLPVHQIYQGNCFT 94 
+                                      5899****************9****9666666666.........7*****************..........................*******************975 PP
+
+>> JGI_SLUDGE_US_READ_1404974572_3  /ti=1404974572 /template_id=APZP20392 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404974658 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1045
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.0   0.1    0.0025        69     636     676 ..       6      51 ..       5      52 .. 0.85
+   2 !   42.3   0.0   1.1e-13   2.8e-09     117     167 ..     296     346 ..     280     348 .] 0.95
+
+  Alignments for each domain:
+  == domain 1    score: 8.0 bits;  conditional E-value: 0.0025
+                    input_aligned 636 eWvakwlpraveAvaalapllak.peaka....aervearlaklgl 676
+                                       W a+w+ r++eA+a++a+l+ + + a+a    +++v+ r++k+gl
+  JGI_SLUDGE_US_READ_1404974572_3   6 PWYAHWRGRVQEALAPIAELALGaAGADAlarsVAAVDGRMNKAGL 51 
+                                      5**********************87777444678889999999887 PP
+
+  == domain 2    score: 42.3 bits;  conditional E-value: 1.1e-13
+                    input_aligned 117 kapelrnaatfqslDElRHaqiqiylkseyvkkyrgfdwakamhtnewlli 167
+                                      +ap++r+a+++q+  E+RHaq+qi +  +y+k+y+gf+++++ h++ w l+
+  JGI_SLUDGE_US_READ_1404974572_3 296 PAPAPRVACMMQTWNEIRHAQTQIPHLAHYNKHYNGFAEWRHQHDRVWSLS 346
+                                      79**********************************************887 PP
+
+>> JGI_SLUDGE_AUS_READ_1434108255_2  /ti=1434108255 /template_id=AXNY16935 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434108256 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1188
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.1   0.2   4.5e-16   1.2e-11     338     486 ..     243     385 ..     237     393 .. 0.80
+
+  Alignments for each domain:
+  == domain 1    score: 50.1 bits;  conditional E-value: 4.5e-16
+                     input_aligned 338 rptvwwrtagmtpeerewleekypgwedrygktwdvirerak.rrkgseyeevtvdlqp.rpetlpprcq.vcqwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehg 486
+                                       r++ +wr   m+   ++        ++++++  + +i++r++  +++++y+e+ +d+qp +++ +p   +   +++ + r++     +DW++f dprq+++ +Yv +++k++ei+++ +e   kr+ll  l++e  ++ +  l+p  ++  +
+  JGI_SLUDGE_AUS_READ_1434108255_2 243 RQVCYWRRTCMSLNIAAK-------EIKPLRLNYGHIARRIGeHKPATRYQEAVYDVQPnTNFHYPXSWDpXRKLYDTXRTQV--VIADWYSFIDPRQFYYTRYVAARAKQQEILRQXFELGGKRDLLPGLKPEFSRTNRPSLDPMGHLDSA 385
+                                       566666666666666666.......8899999*******9999***************7444444433320333333333333..67***************************************************99999999998765 PP
+
+>> JGI_SLUDGE_AUS_READ_1434109372_6  /ti=1434109372 /template_id=AXNY17580 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434109371 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=956
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.8   0.0   5.7e-16   1.5e-11     395     532 ..      11     122 ..       1     153 [. 0.86
+
+  Alignments for each domain:
+  == domain 1    score: 49.8 bits;  conditional E-value: 5.7e-16
+                     input_aligned 395 prpetlpprcqvcqwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqa.....adklrlaqvlayyglelgedd 532
+                                        +petl ++c++cq+pi+  pg+++ ++D      p +yngr Y+f se  +++f++                          + +ry++h   v+r+ ag+++p++  +++ +++      +d++ ++++++ y++ ++  +
+  JGI_SLUDGE_AUS_READ_1434109372_6  11 AYPETLRYVCNMCQLPIVGVPGKKWNVKDY-----PLEYNGRLYHFGSEVDRWCFQQ--------------------------DTERYAGHLSIVDRFLAGMIQPMNLEGALKYMNIgpgecGDDAHNYAWAEVYRALREARK 122
+                                       69**********************755554.....888*******************..........................9***********************999999999999999999999999999998886543 PP
+
+>> JGI_SLUDGE_AUS_READ_1434258466_4  /ti=1434258466 /template_id=AXNZ16698 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434258465 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=963
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.0   0.0     2e-12   5.5e-08     400     532 ..       3     109 ..       1     139 [. 0.87
+
+  Alignments for each domain:
+  == domain 1    score: 38.0 bits;  conditional E-value: 2e-12
+                     input_aligned 400 lpprcqvcqwpikfrpgsplrssDWeafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalfqa.....adklrlaqvlayyglelgedd 532
+                                       l  +c++cq+pi + + +++ s+D      p +yngr Y+f se  +++f++                          + +ry++h   v+r+ ag+++p++  +++ +++      +d++ ++++++ y++ ++  +
+  JGI_SLUDGE_AUS_READ_1434258466_4   3 LLXVCNMCQLPILVCRAKKWTSKD-----YPLEYNGRLYHFVSEVDRWCFQQ--------------------------DTERYAGHLSIVDRFLAGMIQPMNLEGALKYMNIgpgecGDDAHNYAWAEVYRALREARK 109
+                                       5579***********988865555.....4999*******************..........................9***********************999999999999999999999999999998886543 PP
+
+>> JGI_SLUDGE_AUS_READ_1434248374_4  /ti=1434248374 /template_id=AXNZ9173 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=978
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.3   0.5   1.4e-11   3.8e-07     603     673 ..      87     162 ..      82     166 .. 0.84
+
+  Alignments for each domain:
+  == domain 1    score: 35.3 bits;  conditional E-value: 1.4e-11
+                     input_aligned 603 lllsaaeadyertrrwtdalfkld..geeNrellqeWvakwlpraveAvaalapllak.peak..aaervearlak 673
+                                       l+++a+  d++r+rrw +al k++  +e Nr l+q+W+ +w  +a++A++a++++l + p+a+  a +++++++++
+  JGI_SLUDGE_AUS_READ_1434248374_4  87 LITDAQLIDVARHRRWXSALXKMAleTEGNRXLIQSWMXQWHRLADRAIEAYCAALPDvPNAAetAIAATHDLRRS 162
+                                       667788889**************667********************************999986535555555555 PP
+
+>> JGI_SLUDGE_AUS_READ_1434043400_3  /ti=1434043400 /template_id=AXNY2635 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1192
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.1   0.0   1.5e-11   4.1e-07     455     508 ..     295     348 ..     278     352 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 35.1 bits;  conditional E-value: 1.5e-11
+                     input_aligned 455 eaekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaal 508
+                                       +  kr++++ald++w  +la++++p+ry+ h+lq+++ay+g++ p ++i++a++
+  JGI_SLUDGE_AUS_READ_1434043400_3 295 NLTKREHDKALDARWAGTLARLYTPARYLFHTLQMASAYVGQVSPASTINNAII 348
+                                       56799**********************************************987 PP
+
+>> JGI_SLUDGE_AUS_READ_1434043399_3  /ti=1434043399 /template_id=AXNY2635 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1225
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.5   0.0   9.5e-11   2.6e-06     456     509 ..     284     337 ..     267     367 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 32.5 bits;  conditional E-value: 9.5e-11
+                     input_aligned 456 aekrgllealdeewvkvladvleplryvehglqverayagryapgtvitqaalf 509
+                                         ++++++ald++w  +la+ ++p+ry+ h+lq+++ay+g++  +++it++++ 
+  JGI_SLUDGE_AUS_READ_1434043399_3 284 LTNANHDKALDARWAGTLARXYTPARYLFHTLQMASAYVGQVSARSTITNCHYS 337
+                                       66899**********************************************985 PP
+
+>> JGI_SLUDGE_AUS_READ_1434013000_3  /ti=1434013000 /template_id=AWAC609 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434012999 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=985
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.0   0.0   8.7e-09   0.00023     399     497 ..     238     308 ..     225     319 .. 0.82
+
+  Alignments for each domain:
+  == domain 1    score: 26.0 bits;  conditional E-value: 8.7e-09
+                     input_aligned 399 tlpprcqvcqwpikfrpgsplrssDW.eafrdprqyngrtYvfcsekceeifekvleeaekrgllealdeewvkvladvleplryvehglqverayagry 497
+                                       +lp++cqvcq+p+ f++  +    D  +   +++++ g + ++cs++c++if++                          ep++yv+++l+v+++ ++ +
+  JGI_SLUDGE_AUS_READ_1434013000_3 238 ALPQLCQVCQIPMGFTEIAKG---DPmQVAYRVSEFPGARLHTCSDGCQDIFDH--------------------------EPEKYVNAWLPVHQIFQAIV 308
+                                       699************964443...22033334555*******************..........................**************997655 PP
+
+>> JGI_SLUDGE_US_READ_1404624592_6  /ti=1404624592 /template_id=APZO23682 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404624685 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1078
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.5   0.1   3.2e-06     0.087     271     288 ..       6      23 ..       2      27 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 17.5 bits;  conditional E-value: 3.2e-06
+                    input_aligned 271 vglmmdYytpkRveSyke 288
+                                      v++mmdY++pkRv+S+ke
+  JGI_SLUDGE_US_READ_1404624592_6   6 VAMMMDYMLPKRVMSWKE 23 
+                                      89***************9 PP
+
+>> JGI_SLUDGE_AUS_READ_1434229929_3  /ti=1434229929 /template_id=AXNY26755 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434229928 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1148
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.9   0.2   5.2e-06      0.14     631     673 ..      14      59 ..       4      63 .. 0.80
+
+  Alignments for each domain:
+  == domain 1    score: 16.9 bits;  conditional E-value: 5.2e-06
+                     input_aligned 631 rellqeWvakwlpraveAvaalapllak.peak..aaervearlak 673
+                                        el+q+W+a+w+p+a++A++a++++l + p+a+  a +++++++++
+  JGI_SLUDGE_AUS_READ_1434229929_3  14 CELIQSWIAQWQPLADRAIEAYCAALPDvPNAAetAIAATHDLRRS 59 
+                                       589*************************999986535555555555 PP
+
+>> JGI_SLUDGE_AUS_READ_1434244786_1  /ti=1434244786 /template_id=AXNZ7088 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434244787 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=936
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.9   0.2     5e-06      0.13      95     145 ..     166     216 ..     146     241 .. 0.80
+
+  Alignments for each domain:
+  == domain 1    score: 16.9 bits;  conditional E-value: 5e-06
+                     input_aligned  95 lgavallEyaAaraearlarfvkapelrnaatfqslDElRHaqiqiylkse 145
+                                       +  + ++E  A +a+a+++++v++  +++ a+ q++DE RH +    l++e
+  JGI_SLUDGE_AUS_READ_1434244786_1 166 ICQFMHGEQGALIATAKIVNTVPDMNAKFYAATQVMDEARHVESYKRLIHE 216
+                                       44567899*********************************9876666665 PP
+
+>> JGI_SLUDGE_US_READ_1404749847_2  /ti=1404749847 /template_id=APZO36111 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=reverse /mate=JGI_SLUDGE_US_READ_1404749501 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=1043
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.8   0.0   5.5e-06      0.15     127     153 ..     281     310 ..     272     317 .. 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 16.8 bits;  conditional E-value: 5.5e-06
+                    input_aligned 127 fqslDElRHaqiqiylkseyvkkyr...gf 153
+                                      +q++DE+RH++iq++lk   +++y    gf
+  JGI_SLUDGE_US_READ_1404749847_2 281 MQMVDEFRHSNIQMNLKILVLENYIdpaGF 310
+                                      9***************99999998755555 PP
+
+>> JGI_SLUDGE_US_READ_1404636717_1  /ti=1404636717 /template_id=APZO25857 /library_id=JGI_LIB_SLUDGE_US /sequencing_direction=forward /mate=JGI_SLUDGE_US_READ_1404640594 /sample_id=JGI_SMPL_SLUDGE_US /sample_name=SLUDGE_US /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_US /location_1="Nine Springs Wastewater Treatment Plant" /region_1="Madison, Wisconsin" /country_1=USA /length=823
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.3   0.3   7.9e-06      0.21      94     145 ..     146     197 ..     120     222 .. 0.77
+   2 ?   -1.4   0.0       1.8   4.8e+04     222     234 ..     259     271 ..     236     272 .. 0.73
+
+  Alignments for each domain:
+  == domain 1    score: 16.3 bits;  conditional E-value: 7.9e-06
+                    input_aligned  94 flgavallEyaAaraearlarfvkapelrnaatfqslDElRHaqiqiylkse 145
+                                       ++ + ++E  A +a+a+++ +v++  +++ a+ q++DE RH +    l +e
+  JGI_SLUDGE_US_READ_1404636717_1 146 SISQFMHGEQGALIATAKIVGTVPDMNAKFYAATQVMDEARHVEAYKRLLHE 197
+                                      45667789**********************************9876666665 PP
+
+  == domain 2    score: -1.4 bits;  conditional E-value: 1.8
+                    input_aligned 222 SiQsDEaRHmqlG 234
+                                       +  DEaRH++ G
+  JGI_SLUDGE_US_READ_1404636717_1 259 YVMQDEARHVSFG 271
+                                      4566999998877 PP
+
+>> JGI_SLUDGE_AUS_READ_1434098934_2  /ti=1434098934 /template_id=AXNY11515 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434098935 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=928
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   0.0   0.00022         6     303     433 ..      27     152 ..      22     182 .. 0.73
+   2 ?   -2.9   0.0       4.8   1.3e+05     441     484 ..     234     277 ..     232     280 .. 0.88
+
+  Alignments for each domain:
+  == domain 1    score: 11.5 bits;  conditional E-value: 0.00022
+                     input_aligned 303 rdlekyGlkkPkyleqaikeldhyhhalalglyalrptvwwrtagmtpeerewl....eekypgwedrygktwdvirerakrrkgseyeevtvdlqprpetlpprcqvcqwpikfrpgsplrssDWeafrdprq.y 433
+                                       r l  y    P++ + ++k + +  h+   +ly +r+ ++w ta+ t+   e l    e     + +r+++  + +    +   +++ e + ++l p     ++ ++v++ p++  p +p       +++ p+  +
+  JGI_SLUDGE_AUS_READ_1434098934_2  27 RALLTYVFAAPRQSIHIMKGIXEEIHQSRHVLYDVRHSAFWXTAVHTKHLLENLadycEYSPXPTKSRVKRCLSCVML--A---QHKQEMMITPLLPSSARENASLPVNNCPMCRNPAHPR-----SRLKSPASpR 152
+                                       6788899999*******************************************9665555555555555555555554..2...2223456677778888888999**********99997.....3333333332 PP
+
+  == domain 2    score: -2.9 bits;  conditional E-value: 4.8
+                     input_aligned 441 csekceeifekvleeaekrgllealdeewvkvladvleplryve 484
+                                       ++++c + + + ++e +++    +l+ +w ++l + + plr  +
+  JGI_SLUDGE_AUS_READ_1434098934_2 234 RRAGCVTDWMGKIREXSRQRNKHTLPVSWGNFLLKSVIPLRLSQ 277
+                                       6889999999999999999999999****999999999999765 PP
+
+>> JGI_SLUDGE_AUS_READ_1434238261_3  /ti=1434238261 /template_id=AXNZ3156 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434238260 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=885
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.4   0.00019       5.1     322     413 ..     120     210 ..     112     240 .. 0.80
+
+  Alignments for each domain:
+  == domain 1    score: 11.7 bits;  conditional E-value: 0.00019
+                     input_aligned 322 eldhyhhalalglyalrptvwwr.tagmtpeerewleekypgwedrygktwdvirerakrrkgseyeevtvdlq.prpetlpprcqvcqwpikf 413
+                                        + + h a+++++++ +  ++w  +  +++  r w ++      +r+g t   +r+ ++rr++ ey+ +tv+   prp       ++ + +i+ 
+  JGI_SLUDGE_AUS_READ_1434238261_3 120 SACWRHSAAITATWTTTRKAAWScSVATSAYSRHWAAAXKRLAKRRPGTTPPRVRHAPCRRPPMEYRWMTVRESvPRPSGR---SNLAGSTIAR 210
+                                       5667788888899999999****99999999*****999999999**************************9998888744...4555555555 PP
+
+>> JGI_SLUDGE_AUS_READ_1434256691_1  /ti=1434256691 /template_id=AXNZ15578 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434256690 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=1015
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.0   0.00028       7.5      10      58 ..       7      54 ..       3      58 .. 0.93
+
+  Alignments for each domain:
+  == domain 1    score: 11.1 bits;  conditional E-value: 0.00028
+                     input_aligned 10 ydltrdldWepsYvkeeelfptdktegikiedwekwedpfkltyreYvk 58
+                                      ++l+r l W++ Y+ e++++p   + +++  +  +++d  ++t+  Y+ 
+  JGI_SLUDGE_AUS_READ_1434256691_1  7 NRLIRFLAWNMPYHVEHHVYPAVPFDKLPALHA-RMKDHLRVTAPGYAA 54
+                                      6899**************************999.9************86 PP
+
+>> JGI_SLUDGE_AUS_READ_1434267581_2  /ti=1434267581 /template_id=AXNZ22502 /library_id=JGI_LIB_SLUDGE_AUS /sequencing_direction=reverse /mate=JGI_SLUDGE_AUS_READ_1434267582 /sample_id=JGI_SMPL_SLUDGE_AUS /sample_name=SLUDGE_AUS /number_of_sites=1 /site_id_1=JGI_SITE_SLUDGE_AUS /location_1="Thornside Sewage Treatment Plant" /region_1="Brisbane, Queensland" /country_1=Australia /length=980
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0   0.00037        10     480     532 ..      19      76 ..      15     106 .. 0.86
+
+  Alignments for each domain:
+  == domain 1    score: 10.7 bits;  conditional E-value: 0.00037
+                     input_aligned 480 lryvehglqverayagryapgtvitqaalfqa.....adklrlaqvlayyglelgedd 532
+                                       +ry++h   v+r+ ag+++p++  +++ +++      +d++ ++++++ y++ ++  +
+  JGI_SLUDGE_AUS_READ_1434267581_2  19 ERYAGHLSIVDRFLAGMIQPMNLEGALKYMNIgpgecGDDAHNYAWAEVYRALREARK 76 
+                                       8*********************999999999999999999999999999998886543 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (677 nodes)
+Target sequences:                    1347096  (441112699 residues)
+Passed MSV filter:                     18258  (0.0135536); expected 26941.9 (0.02)
+Passed bias filter:                    15020  (0.0111499); expected 26941.9 (0.02)
+Passed Vit filter:                      1230  (0.000913075); expected 1347.1 (0.001)
+Passed Fwd filter:                        54  (4.00862e-05); expected 13.5 (1e-05)
+Initial search space (Z):            1347096  [actual number of targets]
+Domain search space  (domZ):              50  [number of targets reported over threshold]
+# CPU time: 40.53u 0.59s 00:00:41.12 Elapsed: 00:00:32.11
+# Mc/sec: 9300.32
+//

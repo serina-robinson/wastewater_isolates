@@ -1,0 +1,241 @@
+ec_code,enzyme_name,bbd_class
+1.1.-.-,1-ketoacenaphthalene 2-monooxygenase (enzymeID# e1233),1
+1.2.2.4,carbon monoxide oxygenase (enzymeID# e0180),1
+1.3.-.-,"4,4'-dihydroxy-alpha-methylstilbene dioxygenase (enzymeID# e0549)",1
+1.3.-.-,"7,8-dihydroxy benzo(a)pyrene dioxygenase (enzymeID# e0704)",1
+1.7.3.1,2-nitropropane dioxygenase (enzymeID# e0387),1
+1.13.-.-,"1,2-dihydroxy-8-methylnaphthalene dioxygenase (enzymeID# e0501)",1
+1.13.-.-,"1,2-dihydroxy-8-carboxynaphthalene dioxygenase (enzymeID# e0491)",1
+1.13.-.-,"1,2-dihydroxy-7-hydroxymethylnaphthalene dioxygenase (enzymeID# e0498)",1
+1.13.-.-,"2,3-bis(4-hydroxyphenyl)-1,2-propanediol dioxygenase (enzymeID# e0548)",1
+1.13.-.-,"2,3-dihydroxy-2'-carboxybiphenyl 1,2-dioxygenase (enzymeID# e0647)",1
+1.13.-.-,"2,3-dihydroxymetamitron 1,2-dioxygenase (enzymeID# e0996)",1
+1.13.11.-,trihydroxytoluene dioxygenase (enzymeID# e0074),1
+1.13.11.-,"3,4-dihydroxyfluorene 4,4a-dioxygenase (enzymeID# e0294)",1
+1.13.11.-,"1,1-dichloro-2-(dihydroxy-4-chlorophenyl)-(4-chlorophenyl)ethylene 1,2-dioxygenase (enzymeID# e0313)",1
+1.13.11.-,"1,2-dihydroxyfluorene 1,1a-dioxygenase (enzymeID# e0295)",1
+1.13.11.-,"2,3-dihydroxy DDT 1,2-dioxygenase (enzymeID# e0315)",1
+1.13.11.-,"2-aminophenol 1,6-dioxygenase (enzymeID# e0247)",1
+1.13.11.-,"2,3-dihydroxy-ethylbenzene 1,2-dioxygenase (enzymeID# e0220)",1
+1.13.11.-,"3,4-dihydroxyphenanthrene dioxygenase (enzymeID# e0345)",1
+1.13.11.-,"3,6-dichlorocatechol 1,2-dioxygenase (enzymeID# e0419)",1
+1.13.11.-,"2,2',3-trihydroxybiphenyl dioxygenase (enzymeID# e0032)",1
+1.13.11.-,"1,2-dihydroxynaphthalene-6-sulfonate 1,8a-dioxygenase (enzymeID# e0250)",1
+1.13.11.-,5-aminosalicylate dioxygenase (enzymeID# e0518),1
+1.13.11.-,"2'-aminobiphenyl-2,3-diol 1,2-dioxygenase (enzymeID# e0324)",1
+1.13.11.-,"hydroquinone 1,2-dioxygenase (enzymeID# e0203)",1
+1.13.11.-,"2,6-dichloro-p-hydroquinone 1,2-dioxygenase (enzymeID# e0422)",1
+1.13.11.-,"3,5-dichlorocatechol 1,2-dioxygenase (enzymeID# e0231)",1
+1.13.11.-,"2,3-dihydroxy-p-cumate dioxygenase (enzymeID# e0285)",1
+1.13.11.-,"5,6-dihydroxy-3-methyl-2-oxo-1,2-dihydroquinoline dioxygenase (enzymeID# e0044)",1
+1.13.11.-,"protocatechuate 3,4-dioxygenase typeII (enzymeID# e0385)",1
+1.13.11.-,"4,5-dihydroxypyrene dioxygenase (enzymeID# e0587)",1
+1.13.11.-,"4,6-dichloro-3-methylcatechol 1,2-dioxygenase (enzymeID# e0605)",1
+1.13.11.-,"anthracene-1,2-diol 1,2-dioxygenase (enzymeID# e0676)",1
+1.13.11.-,"4,5-dihydroxybenzo(a)pyrene dioxygenase (enzymeID# e0697)",1
+1.13.11.-,"9,10-dihydroxybenzo(a)pyrene dioxygenase (enzymeID# e0702)",1
+1.13.11.-,"1,2-dihydroxy-5,6,7,8-tetrahydronaphthalene extradiol dioxygenase (enzymeID# e0729)",1
+1.13.11.-,"pyridine-3,4-diol dioxygenase (enzymeID# e0866)",1
+1.13.11.-,"2,3-dihydroxydiphenyl ether dioxygenase (enzymeID# e0923)",1
+1.13.11.-,trihydroxytoluene oxygenase (enzymeID# e0969),1
+1.13.11.-,"4,5-dimethylcatechol 2,3-dioxygenase (enzymeID# e1013)",1
+1.13.11.-,"3,6-dimethylcatechol 2,3-dioxygenase (enzymeID# e1014)",1
+1.13.11.-,3-mercaptopropionate dioxygenase (enzymeID# e1033),1
+1.13.11.-,"3-O-methylgallate 3,4-dioxygenase (enzymeID# e1073)",1
+1.13.11.-,4-sulfophenol 2-monooxygenase (enzymeID# e1074),1
+1.13.11.-,"2-{3-[(2,3-dihydroxyphenyl)(hydroxy)methyl]phenyl}propanoate dioxygenase (enzymeID# e1082)",1
+1.13.11.-,ibuprofen-CoA dioxygenase (enzymeID# e1165),1
+1.13.11.-,"isobutylcatechol 2,3-dioxygenase (enzymeID# e1167)",1
+1.13.11.1,"catechol 1,2-dioxygenase (enzymeID# e0064)",1
+1.13.11.2,"catechol 2,3-dioxygenase (enzymeID# e0156)",1
+1.13.11.3,"protocatechuate 3,4-dioxygenase (enzymeID# e0114)",1
+1.13.11.5,"homogentisate 1,2-dioxygenase (enzymeID# e0081)",1
+1.13.11.6,"3-hydroxyanthranilate 3,4-dioxygenase (enzymeID# e0633)",1
+1.13.11.8,"protocatechuate 4,5-dioxygenase (enzymeID# e0115)",1
+1.13.11.9,"2,5-dihydroxypyridine 5,6-dioxygenase (enzymeID# e0911)",1
+1.13.11.15,"3,4-dihydroxyphenylacetate 2,3-dioxygenase (enzymeID# e0125)",1
+1.13.11.16,"3-(2,3-dihydroxyphenyl)propionate 1,2-dioxygenase (enzymeID# e0309)",1
+1.13.11.24,"quercetin 2,3-dioxygenase (enzymeID# e0559)",1
+1.13.11.25,"3,4-DHSA 4,5-dioxygenase (enzymeID# e0715)",1
+1.13.11.27,4-hydroxyphenylpyruvate dioxygenase (enzymeID# e0126),1
+1.13.11.37,"hydroxyquinol 1,2-dioxygenase (enzymeID# e0207)",1
+1.13.11.38,1-hydroxy-2-naphthoate dioxygenase (enzymeID# e0329),1
+1.13.11.39,"2,3-dihydroxybiphenyl 1,2-dioxygenase (enzymeID# e0127)",1
+1.13.11.41,"2,4'-dihydroxyacetophenone dioxygenase (enzymeID# e0889)",1
+1.13.11.48,"1H-3-hydroxy-4-oxoquinaldine 2,4-dioxygenase (enzymeID# e0934)",1
+1.13.11.56,"1,2-dihydroxynaphthalene dioxygenase (enzymeID# e0255)",1
+1.13.11.57,gallate dioxygenase (enzymeID# e1107),1
+1.13.11.64,"5-nitrosalicylate 1,2-dioxygenase (enzymeID# e1151)",1
+1.13.12.-,hexadecyltrimethylammonium chloride monooxygenase (enzymeID# e0872),1
+1.13.12.-,4-methyl-5-nitrocatechol monooxygenase (enzymeID# e0967),1
+1.14.-.-,MBT dioxygenase (enzymeID# e0407),1
+1.14.-.-,DBT dioxygenase (enzymeID# e0360),1
+1.14.-.-,fluorene oxygenase (enzymeID# e0291),1
+1.14.-.-,1-indanone dioxygenase (enzymeID# e0296),1
+1.14.-.-,toluene-4-sulfonate monooxygenase (enzymeID# e0243),1
+1.14.-.-,1-indanone monooxygenase (enzymeID# e0298),1
+1.14.-.-,2-indanone monooxygenase (enzymeID# e0299),1
+1.14.-.-,2-hydroxyisobutyrate 3-monooxygenase (enzymeID# e0410),1
+1.14.-.-,toluene 3-monooxygenase (enzymeID# e0224),1
+1.14.-.-,TBT dioxygenase (enzymeID# e0349),1
+1.14.-.-,alpha-pinene monooxygenase (enzymeID# e0475),1
+1.14.-.-,4-chlorophenoxyacetate monooxygenase (enzymeID# e0234),1
+1.14.-.-,"3-methyl-2-oxo-1,2-dihydroquinoline 6-monooxygenase (enzymeID# e0042)",1
+1.14.-.-,"6-hydroxy-3-methyl-2-oxo-1,2-dihydroquinoline 6-monooxygenase (enzymeID# e0043)",1
+1.14.-.-,"9-fluorenone-3,4-dioxygenase (enzymeID# e0645)",1
+1.14.-.-,N-isopropylacetaniline monooxygenase (enzymeID# e0571),1
+1.14.-.-,"pyrene 4,5-monooxygenase (enzymeID# e0590)",1
+1.14.-.-,"pyrene 1,2-monooxygenase (enzymeID# e0592)",1
+1.14.-.-,"1-hydroxypyrene 6,7-monooxygenase (enzymeID# e0594)",1
+1.14.-.-,"1-hydroxypyrene 7,8-monooxygenase (enzymeID# e0596)",1
+1.14.-.-,"1-methoxypyrene 6,7-monooxygenase (enzymeID# e0600)",1
+1.14.-.-,phenylboronic acid monooxygenase (enzymeID# e0630),1
+1.14.-.-,branched-chain dodecylbenzene sulfonate monooxygenase (enzymeID# e0672),1
+1.14.-.-,"2,6-dihydroxybenzothiazole monooxygenase (enzymeID# e0815)",1
+1.14.-.-,endosulfan monooxygenase I (enzymeID# e0856),1
+1.14.-.-,2-hydroxybenzothiazole monooxygenase (enzymeID# e0811),1
+1.14.-.-,"anthracene 9,10-dioxygenase (enzymeID# e0707)",1
+1.14.-.-,2-(methylthio)benzothiazole monooxygenase (enzymeID# e0810),1
+1.14.-.-,2-mercaptobenzothiazole monooxygenase (enzymeID# e0738),1
+1.14.-.-,6-hydroxy-2-mercaptobenzothiazole monooxygenase (enzymeID# e0739),1
+1.14.-.-,"4,4'-dihydroxybenzophenone monooxygenase (enzymeID# e0943)",1
+1.14.-.-,benzothiazole monooxygenase (enzymeID# e0812),1
+1.14.-.-,isooctane monooxygenase (enzymeID# e0795),1
+1.14.-.-,thioacetamide S-oxide S-oxygenase (enzymeID# e0827),1
+1.14.-.-,thioacetamide S-oxygenase (enzymeID# e0826),1
+1.14.-.-,pinacolone 5-monooxygenase (enzymeID# e0823),1
+1.14.-.-,"4-(1-ethyl-1,4-dimethyl-pentyl)phenol monoxygenase (enzymeID# e0869)",1
+1.14.-.-,bisphenol F monooxygenase (enzymeID# e0941),1
+1.14.-.-,p-xylene dioxygenase (enzymeID# e1048),1
+1.14.-.-,endosulfan ether monooxygenase (enzymeID# e0897),1
+1.14.-.-,"metamitron 2,3-dioxygenase (enzymeID# e0960)",1
+1.14.-.-,"o-xylene 4,5-dioxygenase (enzymeID# e1047)",1
+1.14.-.-,hydroxyethoxyacetate monooxygenase (enzymeID# e1024),1
+1.14.-.-,"o-xylene 3,4-dioxygenase (enzymeID# e1046)",1
+1.14.-.-,"benzothiophene-S,S-dioxide monooxygenase (enzymeID# e1042)",1
+1.14.-.-,"naphthalene 2,3-dioxygenase (enzymeID# e1063)",1
+1.14.-.-,2-[(3-hydroxy(phenyl)methyl)phenyl]-propanoate dioxygenase (enzymeID# e1081),1
+1.14.-.-,4-iso-propylphenol 2-monooxygenase (enzymeID# e1155),1
+1.14.-.-,bisphenolA 1-monooxygenase (enzymeID# e1158),1
+1.14.-.-,"1,5-anhydro-D-mannitol monooxygenase (enzymeID# e1204)",1
+1.14.-.-,acenaphthalene monooxygenase (enzymeID# e1230),1
+1.14.-.-,1-acenaphthalenol 2-monooxygenase (enzymeID# e1232),1
+1.14.11.-,"2,4-dichlorophenoxyacetate alpha-ketoglutarate dioxygenase (enzymeID# e0230)",1
+1.14.11.-,hypophosphite dioxygenase (enzymeID# e0657),1
+1.14.12.-,ethylbenzene dioxygenase (enzymeID# e0217),1
+1.14.12.-,1-naphthoic acid dioxygenase (enzymeID# e0484),1
+1.14.12.-,9-fluorenone dioxygenase (enzymeID# e0293),1
+1.14.12.-,2-aminobenzenesulfonate dioxygenase (enzymeID# e0241),1
+1.14.12.-,benzenesulfonate dioxygenase (enzymeID# e0242),1
+1.14.12.-,"DDT 2,3-dioxygenase (enzymeID# e0319)",1
+1.14.12.-,nitrobenzene dioxygenase (enzymeID# e0248),1
+1.14.12.-,"4-aminobenzoate 3,4-dioxygenase (deaminating) (enzymeID# e0392)",1
+1.14.12.-,"4-aminobenzenesulfonate 3,4-dioxygenase (deaminating) (enzymeID# e0393)",1
+1.14.12.-,"p-cumate 2,3-dioxygenase (enzymeID# e0270)",1
+1.14.12.-,"dibenzofuran 4,4a-dioxygenase (enzymeID# e0030)",1
+1.14.12.-,"phenanthrene 3,4-dioxygenase (enzymeID# e0321)",1
+1.14.12.-,styrene dioxygenase (enzymeID# e0200),1
+1.14.12.-,chlorobenzene dioxygenase (enzymeID# e0062),1
+1.14.12.-,aniline dioxygenase (enzymeID# e0522),1
+1.14.12.-,toluate dioxygenase (enzymeID# e0190),1
+1.14.12.-,pyrene dioxygenase (enzymeID# e0585),1
+1.14.12.-,tetrachlorobenzene dioxygenase (enzymeID# e0604),1
+1.14.12.-,phenanthrene-4-carboxylate dioxygenase (enzymeID# e0603),1
+1.14.12.-,"benzo(a)pyrene 11,12-dioxygenase (enzymeID# e0692)",1
+1.14.12.-,"benzo(a)pyrene 4,5-dioxygenase (enzymeID# e0695)",1
+1.14.12.-,"benzo(a)pyrene 7,8-dioxygenase (enzymeID# e0703)",1
+1.14.12.-,tetralin ring-hydroxylating dioxygenase (enzymeID# e0727),1
+1.14.12.-,2-mercaptobenzothiazole dioxygenase (enzymeID# e0737),1
+1.14.12.-,"phthalate 3,4-dioxygenase (enzymeID# e0914)",1
+1.14.12.-,"isophthalate 3,4-dioxygenase (enzymeID# e0948)",1
+1.14.12.-,"4-hydroxybenzenesulfonate 1,2-dioxygenase (enzymeID# e0931)",1
+1.14.12.-,"diphenyl ether 1,2-dioxygenase (enzymeID# e0925)",1
+1.14.12.-,"N-isopropylaniline 1,2-dixoxygenase (enzymeID# e0908)",1
+1.14.12.-,"acetanilide 1,2-dioxygenase (enzymeID# e0909)",1
+1.14.12.-,"2-chloro-N-isopropylacetanilide 1,2-dioxygenase (enzymeID# e0910)",1
+1.14.12.-,"diphenyl ether 2,3-dioxygenase (enzymeID# e0922)",1
+1.14.12.-,"2,4-dinitrotoluene dioxygenase (enzymeID# e0966)",1
+1.14.12.-,"N-acetylaminonitrofen 1,2-dioxygenase (enzymeID# e1066)",1
+1.14.12.-,"nitrofen 1,2-dioxygenase (enzymeID# e1068)",1
+1.14.12.-,saccharin dioxygenase (enzymeID# e1103),1
+1.14.12.-,"phenoxybenzoate 1,2-dioxygenase (enzymeID# e1195)",1
+1.14.12.1,"anthranilate 1,2-dioxygenase (enzymeID# e0371)",1
+1.14.12.3,"benzene 1,2-dioxygenase (enzymeID# e0059)",1
+1.14.12.4,2-methyl-3-hydroxypyridine-5-carboxylic acid oxygenase (enzymeID# e0978),1
+1.14.12.5,5-pyridoxate oxygenase (enzymeID# e0983),1
+1.14.12.7,"phthalate 4,5-dioxygenase (enzymeID# e0104)",1
+1.14.12.8,"4-sulfobenzoate 3,4-dioxygenase (enzymeID# e0128)",1
+1.14.12.9,"4-chlorophenylacetate 3,4-dioxygenase (enzymeID# e0290)",1
+1.14.12.10,"benzoate 1,2-dioxygenase (enzymeID# e0154)",1
+1.14.12.11,toluene dioxygenase (enzymeID# e0155),1
+1.14.12.12,"naphthalene 1,2-dioxygenase (enzymeID# e0002)",1
+1.14.12.13,"2-halobenzoate 1,2-dioxygenase (enzymeID# e0036)",1
+1.14.12.14,"2-aminobenzenesulfonate 2,3-dioxygenase (enzymeID# e0192)",1
+1.14.12.15,"terephthalate 1,2-dioxygenase (enzymeID# e0107)",1
+1.14.12.16,"2-oxo-1,2-dihydroquinoline 5,6-dioxygenase (enzymeID# e0046)",1
+1.14.12.18,biphenyl dioxygenase (enzymeID# e0089),1
+1.14.12.19,3-phenylpropionate dioxygenase (enzymeID# e0307),1
+1.14.12.22,"carbazole 1,9a-dioxygenase (enzymeID# e0323)",1
+1.14.13.-,styrene monooxygenase (enzymeID# e0195),1
+1.14.13.-,DBT monooxygenase (enzymeID# e0214),1
+1.14.13.-,"dibenzothiophene-5,5-dioxide monooxygenase (enzymeID# e0215)",1
+1.14.13.-,xylene monooxygenase (enzymeID# e0172),1
+1.14.13.-,"1-hydroxy-2-oxolimonene 1,2-monooxygenase (enzymeID# e0464)",1
+1.14.13.-,toluene 2-monooxygenase (enzymeID# e0222),1
+1.14.13.-,"phenanthrene 3,4-monooxygenase (enzymeID# e0347)",1
+1.14.13.-,"2,4,5-trichlorophenoxyacetic acid oxygenase (enzymeID# e0276)",1
+1.14.13.-,toluene 4-monooxygenase (enzymeID# e0225),1
+1.14.13.-,chlorophenol 4-monooxygenase (enzymeID# e0252),1
+1.14.13.-,4-nitrophenol 4-monooxygenase (enzymeID# e0201),1
+1.14.13.-,dimethyl sulfide monooxygenase (enzymeID# e0189),1
+1.14.13.-,4-hydroxyacetophenone monooxygenase (enzymeID# e0479),1
+1.14.13.-,toluenesulfonate methyl-monooxygenase (enzymeID# e0238),1
+1.14.13.-,carbon disulfide oxygenase (enzymeID# e0401),1
+1.14.13.-,"phenanthrene 1,2-monooxygenase (enzymeID# e0333)",1
+1.14.13.-,"phenanthrene 9,10-monooxygenase (enzymeID# e0334)",1
+1.14.13.-,ethionamide monooxygenase (enzymeID# e0829),1
+1.14.13.-,1H-4-oxoquinaldine 3-monooxygenase (enzymeID# e0933),1
+1.14.13.-,trimethylamine monooxygenase (enzymeID# e0873),1
+1.14.13.-,4-aminobenzenesulfonate 4-monooxygenase (enzymeID# e0930),1
+1.14.13.-,4-hydroxy-3-nitrophenylacetate monooxygenase (enzymeID# e1038),1
+1.14.13.-,"1,4-dioxane monooxygenase (enzymeID# e1023)",1
+1.14.13.-,benzothiophene monooxygenase (enzymeID# e1041),1
+1.14.13.-,4-sulfoacetophenone monooxygenase (enzymeID# e1071),1
+1.14.13.-,phorate monooxygenase (enzymeID# e1095),1
+1.14.13.-,phorate sulfoxide monooxygenase (enzymeID# e1096),1
+1.14.13.-,"benzoyl-CoA 2,3-monooxygenase (enzymeID# e1176)",1
+1.14.13.2,4-hydroxybenzoate 3-monooxygenase (enzymeID# e0084),1
+1.14.13.7,phenol 2-monooxygenase (enzymeID# e0208),1
+1.14.13.12,benzoate 4-monooxygenase (enzymeID# e0414),1
+1.14.13.22,"cyclohexanone 1,2-monooxygenase (enzymeID# e0166)",1
+1.14.13.25,soluble methane monooxygenase (enzymeID# e0007),1
+1.14.13.29,ortho-nitrophenol 2-monooxygenase (enzymeID# e0205),1
+1.14.13.31,nitrophenol 2-monooxygenase (enzymeID# e0951),1
+1.14.13.35,anthranilate 3-monooxygenase (enzymeID# e0382),1
+1.14.13.40,anthraniloyl-CoA monooxygenase (enzymeID# e0370),1
+1.14.13.44,2-hydroxybiphenyl 3-monooxygenase (enzymeID# e0896),1
+1.14.13.48,limonene 6-monooxygenase (enzymeID# e0445),1
+1.14.13.49,limonene 7-monooxygenase (enzymeID# e0458),1
+1.14.13.50,pentachlorophenol 4-monooxygenase (enzymeID# e0148),1
+1.14.13.69,alkene monooxygenase (enzymeID# e0039),1
+1.14.13.82,vanillate monooxygenase (enzymeID# e0117),1
+1.14.13.107,"limonene 1,2-monooxygenase (enzymeID# e0462)",1
+1.14.13.111,methanesulfonate monooxygenase (enzymeID# e0264),1
+1.14.13.155,alpha-pinene monooxygenase[NADH] (enzymeID# e0443),1
+1.14.13.160,"2-oxo-delta3-4,5,5-trimethylcyclopentenylacetyl-CoA 1,2-monooxygenase (enzymeID# e0304)",1
+1.14.13.162,"2,5-diketocamphane 1,2-monooxygenase (enzymeID# e0302)",1
+1.14.13.166,4-nitrocatechol 4-monooxygenase (enzymeID# e0206),1
+1.14.14.-,pyrrole-2-carboxylate monooxygenase (enzymeID# e0611),1
+1.14.14.-,endosulfan sulfate monooxygenase (enzymeID# e0857),1
+1.14.14.-,endosulfan monooxygenase II (enzymeID# e0859),1
+1.14.14.1,unspecific monooxygenase (enzymeID# e0551),1
+1.14.14.10,nitrilotriacetate monooxygenase (enzymeID# e0388),1
+1.14.15.-,atrazine monooxygenase (enzymeID# e0090),1
+1.14.15.-,deethylatrazine monooxygenase (enzymeID# e0098),1
+1.14.15.-,butane monooxygenase (enzymeID# e0661),1
+1.14.15.1,camphor 5-monooxygenase (enzymeID# e0300),1
+1.14.15.3,alkane 1-monooxygenase (enzymeID# e0022),1
+1.14.99.-,"naphthalene disulfonate 1,2-dioxygenase (enzymeID# e0249)",1
+1.14.99.15,4-methoxybenzoate monooxygenase (enzymeID# e0103),1
+1.14.99.35,thiophene-2-carboxyl-CoA monooxygenase (enzymeID# e0775),1
+1.14.99.39,ammonia monooxygenase (enzymeID# e0061),1

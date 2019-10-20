@@ -1,0 +1,3 @@
+makeblastdb -in 1143_oxygenases_for_ssn.fasta -dbtype prot -out 1143_oxygenases_for_ssn_db
+
+blastp -db 1143_oxygenases_for_ssn_db -query 1143_oxygenases_for_ssn.fasta -outfmt 6 -out 1143_oxygenases_for_ssn.tsv -num_threads 8
